@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /syllabus/
+permalink: https://cmu-mlsp.github.io/mlspcourse/syllabus/
 title: Syllabus
 nav: true
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /projects/
+permalink: https://cmu-mlsp.github.io/mlspcourse/projects/
 title: Examples of Previous Project Reports
 description: Project reports from student teams who participated in previous editions of the MMML course
 ---

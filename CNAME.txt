@@ -1,1 +1,1 @@
-https://mlsp2024.cs.cmu.edu
+https://cmu-mlsp.github.io/mlspcourse

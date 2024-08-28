@@ -1,6 +1,6 @@
 ---
 layout: schedule
-permalink: /mlspcourse/schedule/
+permalink: /schedule/
 title: Schedule
 nav: true
 ---

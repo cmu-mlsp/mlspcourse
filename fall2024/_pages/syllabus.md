@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /mlspcourse/syllabus/
+permalink: /syllabus/
 title: Syllabus
 nav: true
 ---

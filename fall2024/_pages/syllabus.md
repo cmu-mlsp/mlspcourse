@@ -29,15 +29,15 @@ This course will be taught in person. However, in the event that the course is m
 
 **Website:** The main course website is online at:
 
-[http://mlsp2023.cs.cmu.edu/](http://mlsp2023.cs.cmu.edu/)
+[https://cmu-mlsp.github.io/mlspcourse/]()
 
 **Piazza:** We will be using Piazza for class communication and announcement. The system is highly catered to getting you help fast and efficiently from classmates and instructors. Rather than emailing questions to the teaching staff, you are encouraged to post your questions on Piazza. You can post privately to the instructor and TAs through the Piazza website.
 
-[https://piazza.com/cmu/fall2023/11797/home](https://piazza.com/class/lltl7rebh4r4p1)
+[https://piazza.com/cmu/fall2024/11755/home](https://piazza.com/class/lvmxcb90l234iq/)
 
 **Canvas:** Students are asked to submit their project assignments through the website Canvas. This platform will be used for grading and to handle any request for re-grading. 
 
-[https://canvas.cmu.edu/courses/34748](https://canvas.cmu.edu/courses/34748)
+[https://canvas.cmu.edu/courses/40522](https://canvas.cmu.edu/courses/40522)
 
 ### Grades
 Mini quizzes: 24% <br>

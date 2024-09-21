@@ -99,7 +99,7 @@
 
 - date: 10/3
   title: >
-    <strong>Independent Component Analysis 2</strong>
+    <strong>Clustering</strong>
   topics:
   lectures: >
     <a href="">Slides</a>, <a href="">Video</a>
@@ -108,7 +108,7 @@
 
 - date: 10/8
   title: >
-    <strong>Clustering</strong>
+    <strong>Dictionary Representations</strong>
   topics:
   lectures: >
     <a href="">Slides</a>, <a href="">Video</a>
@@ -117,7 +117,7 @@
 
 - date: 10/10
   title: >
-    <strong>Dictionary Representations</strong>
+    <strong>Guest Lecture: Compressive Sensing</strong>
   topics:
   lectures: >
     <a href="">Slides</a>, <a href="">Video</a>
@@ -234,7 +234,7 @@
 
 - date: 11/26
   title: >
-    <strong>Non-Linear Dynamical Systems</strong>
+    <strong>Auto Regressive Mode</strong>
   topics:
   lectures: >
     <a href="">Slides</a>, <a href="">Video</a>

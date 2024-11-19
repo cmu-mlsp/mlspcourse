@@ -156,7 +156,7 @@
     <strong>Linear Classifier</strong>
   topics:
   lectures: >
-    <a href="">Slides</a>, <a href="">Video</a>
+    <a href="https://drive.google.com/file/d/1XgprNT_028Ofo0UMaezdVmESILKfanFu/view?usp=drive_link">Slides</a>, <a href="">Video</a>
   readings:
   Homeworks:
 
@@ -165,7 +165,7 @@
     <strong>Expectation Maximization 1</strong>
   topics:
   lectures: >
-    <a href="">Slides</a>, <a href="">Video</a>
+    <a href="https://drive.google.com/file/d/1hfgEpyVCWjolFTS7MQbghvmKpelFIe3P/view?usp=drive_link">Slides</a>, <a href="">Video</a>
   readings:
   Homeworks:
 
@@ -174,7 +174,7 @@
     <strong>Expectation Maximization 2</strong>
   topics:
   lectures: >
-    <a href="">Slides</a>, <a href="">Video</a>
+    <a href="https://drive.google.com/file/d/1CZDCnuInGF4-ManAsM1nOufCn0fS1x46/view?usp=drive_link">Slides</a>, <a href="">Video</a>
   readings:
   Homeworks:
 
@@ -189,16 +189,16 @@
 
 - date: 11/7
   title: >
-    <strong>Factor Analysis</strong>
+    <strong>Canonical Correlation Analysis and Latent Dirichlet Allocation</strong>
   topics:
   lectures: >
-    <a href="">Slides</a>, <a href="">Video</a>
+    <a href="https://drive.google.com/file/d/1KSNdsuoHeUGgDs0GWXPvIMln1h91RkG5/view?usp=drive_link">Slides</a>, <a href="">Video</a>
   readings:
   Homeworks: <a href="https://canvas.cmu.edu/courses/40522">HW 3 Deadline & HW 4 Release</a>
 
 - date: 11/12
   title: >
-    <strong>Supervised Representation</strong>
+    <strong>No Class</strong>
   topics:
   lectures: >
     <a href="">Slides</a>, <a href="">Video</a>
@@ -207,16 +207,16 @@
 
 - date: 11/14
   title: >
-    <strong>Hidden Markov Models 1</strong>
+    <strong>Factor Analysis</strong>
   topics:
   lectures: >
-    <a href="">Slides</a>, <a href="">Video</a>
+    <a href="https://drive.google.com/file/d/1JbylEB9Lw59qX_9Ikv9UbXsQxcEGXPmY/view?usp=drive_link">Slides</a>, <a href="">Video</a>
   readings:
   Homeworks:
 
 - date: 11/19
   title: >
-    <strong>Hidden Markov Models 2</strong>
+    <strong>Hidden Markov Models</strong>
   topics:
   lectures: >
     <a href="">Slides</a>, <a href="">Video</a>

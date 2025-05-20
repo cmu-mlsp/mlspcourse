@@ -10,7 +10,7 @@ description: >
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
-url: https://cmu-mlsp.github.io/mlspcourse/  # the base hostname & protocol for your site
+url: https://cmu-mlsp.github.io/mlspcourse-2025/  # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 
 # -----------------------------------------------------------------------------

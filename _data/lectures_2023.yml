@@ -2,295 +2,296 @@
   title: >
     <strong>Introduction</strong>
   topics:
-  lectures: >
-    <a href="https://drive.google.com/file/d/1IJ_7sdk69ab7sCMLko0usUgNyirLx8kf/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/PLGZCDRvkjs?si=YLQk1v50DkX-N2dt">Video</a>
-  readings:
-  Homeworks:
+  # lectures: >
+  #   <a href="https://drive.google.com/file/d/1IJ_7sdk69ab7sCMLko0usUgNyirLx8kf/view?usp=drive_link">Slides</a>, 
+  #   <a href="https://youtu.be/PLGZCDRvkjs?si=YLQk1v50DkX-N2dt">Video</a>
+  # readings:
+  # Homeworks:
 
 - date: 8/29
   title: >
     <strong>Linear Algebra 1</strong>
   topics:
-  lectures: >
-    <a href="https://drive.google.com/file/d/12dMJJsmz_ygBAR1by6pARYzncMFo51XZ/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/zU6QlQs2uO4?si=W8Hs8zNKFJxOKLOu">Video</a>
-  readings:
-  Homeworks:
+  # lectures: >
+  #   <a href="https://drive.google.com/file/d/12dMJJsmz_ygBAR1by6pARYzncMFo51XZ/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/zU6QlQs2uO4?si=W8Hs8zNKFJxOKLOu">Video</a>
+  # readings:
+  # Homeworks:
 
 - date: 9/3
   title: >
     <strong>Linear Algebra 2</strong>
   topics:
-  lectures: >
-    <a href="https://drive.google.com/file/d/12dMJJsmz_ygBAR1by6pARYzncMFo51XZ/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/WnMxuhkiwEg?si=tKbBHSRm3GdL17k_">Video</a>
-  readings:
-  Homeworks: <a href="https://drive.google.com/file/d/1NF-9lIM595qjNM7BxGyynsY6ocFUu8oz/view?usp=sharing">HW 1 Release</a>
+  # lectures: >
+  #   <a href="https://drive.google.com/file/d/12dMJJsmz_ygBAR1by6pARYzncMFo51XZ/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/WnMxuhkiwEg?si=tKbBHSRm3GdL17k_">Video</a>
+  # readings:
+  # Homeworks: <a href="https://drive.google.com/file/d/1NF-9lIM595qjNM7BxGyynsY6ocFUu8oz/view?usp=sharing">HW 1 Release</a>
 
 - date: 9/5
   title: >
     <strong>Optimization</strong>
   topics:
-  lectures: >
-    <a href="https://drive.google.com/file/d/1KkB0sSHZt3QtfXubwrJieCfxNQHJlcId/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/BYcXaEUwrlk?si=fDn67hUFJSME18cJ">Video</a>
-  readings:
-  Homeworks:
+  # lectures: >
+  #   <a href="https://drive.google.com/file/d/1KkB0sSHZt3QtfXubwrJieCfxNQHJlcId/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/BYcXaEUwrlk?si=fDn67hUFJSME18cJ">Video</a>
+  # readings:
+  # Homeworks:
   
 - date: 9/10
   title: >
     <strong>Deterministic Representations</strong>
   topics:
-  lectures: >
-    <a href="https://drive.google.com/file/d/1c4_1P_-mCtFljCdEpEC6lALaON6v1RdJ/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/xEoZj2CdvfU?si=SZfDl_mlBR_lNImv">Video</a>
-  readings:
-  Homeworks:
+  # lectures: >
+  #   <a href="https://drive.google.com/file/d/1c4_1P_-mCtFljCdEpEC6lALaON6v1RdJ/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/xEoZj2CdvfU?si=SZfDl_mlBR_lNImv">Video</a>
+  # readings:
+  # Homeworks:
 
 - date: 9/12
   title: >
     <strong>Data-Driven Representations</strong>
   topics:
-  lectures: >
-    <a href="https://drive.google.com/file/d/1FLdYzZ1TevX5-_Bxq22ARVgTBsrzCORl/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/ojWFV_JeAfg?si=my2SV865con2FoVN">Video</a>
-  readings:
-  Homeworks:
+  # lectures: >
+  #   <a href="https://drive.google.com/file/d/1FLdYzZ1TevX5-_Bxq22ARVgTBsrzCORl/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/ojWFV_JeAfg?si=my2SV865con2FoVN">Video</a>
+  # readings:
+  # Homeworks:
 
 - date: 9/17
   title: >
     <strong>Classification and Metaclassifier</strong>
   topics:
-  lectures: >
-    <a href="https://drive.google.com/file/d/1aieMVt14a0ZfXJOm2tgZ-e61zwLI92ky/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/_C4GbvX7Lnw?si=DfGyzXMV9AX-M3EQ">Video</a>
-  readings:
-  Homeworks:
+  # lectures: >
+  #   <a href="https://drive.google.com/file/d/1aieMVt14a0ZfXJOm2tgZ-e61zwLI92ky/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/_C4GbvX7Lnw?si=DfGyzXMV9AX-M3EQ">Video</a>
+  # readings:
+  # Homeworks:
 
 - date: 9/19
   title: >
     <strong>Face Detection</strong>
   topics:
-  lectures: >
-    <a href="https://drive.google.com/file/d/1-NsbX2y7csAIzF2oUNoREqCp8elPY3qn/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/HDfC9s_XT9I?si=sjzSQu6iVktQhUWX">Video</a>
-  readings:
-  Homeworks: <a href="https://canvas.cmu.edu/courses/40522">HW 1 Deadline</a>
+  # lectures: >
+  #   <a href="https://drive.google.com/file/d/1-NsbX2y7csAIzF2oUNoREqCp8elPY3qn/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/HDfC9s_XT9I?si=sjzSQu6iVktQhUWX">Video</a>
+  # readings:
+  # Homeworks: <a href="https://canvas.cmu.edu/courses/40522">HW 1 Deadline</a>
 
 - date: 9/24
   title: >
     <strong>Non-Negative Matrix Factorization</strong>
   topics:
-  lectures: >
-    <a href="https://drive.google.com/file/d/1KFwWmIo8HnTs-yZ0gApBRiZHzusPLQHs/view?usp=sharing">Slides</a>, <a href="https://youtu.be/TstQvMM8Hf4">Video</a>
-  readings:
-  Homeworks: <a href="">HW 2 Release</a>
+  # lectures: >
+  #   <a href="https://drive.google.com/file/d/1KFwWmIo8HnTs-yZ0gApBRiZHzusPLQHs/view?usp=sharing">Slides</a>, <a href="https://youtu.be/TstQvMM8Hf4">Video</a>
+  # readings:
+  # Homeworks: <a href="">HW 2 Release</a>
 
 - date: 9/26
   title: >
     <strong>Probability and Information Theory</strong>
   topics:
-  lectures: >
-    <a href="https://drive.google.com/file/d/13hwjV4yDkCcm19A3VWXSglTfv7ZLDmX0/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/uixovpFbfDw">Video</a>
-  readings:
-  Homeworks: 
+  # lectures: >
+  #   <a href="https://drive.google.com/file/d/13hwjV4yDkCcm19A3VWXSglTfv7ZLDmX0/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/uixovpFbfDw">Video</a>
+  # readings:
+  # Homeworks: 
 
 - date: 10/1
   title: >
     <strong>Independent Component Analysis</strong>
   topics:
-  lectures: >
-    <a href="https://drive.google.com/file/d/1e5K0JrA5gn72cT_cua6D9b-EEewmE_Xd/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/DJyVmew5dZc">Video</a>
-  readings:
-  Homeworks:
+  # lectures: >
+  #   <a href="https://drive.google.com/file/d/1e5K0JrA5gn72cT_cua6D9b-EEewmE_Xd/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/DJyVmew5dZc">Video</a>
+  # readings:
+  # Homeworks:
 
 - date: 10/3
   title: >
     <strong>Clustering</strong>
   topics:
-  lectures: >
-    <a href="https://drive.google.com/file/d/1zgAy7W2g_FCpg5jubJmpP4xZa_-XTWgu/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/nBR5exqCorw">Video</a>
-  readings:
-  Homeworks:
+  # lectures: >
+  #   <a href="https://drive.google.com/file/d/1zgAy7W2g_FCpg5jubJmpP4xZa_-XTWgu/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/nBR5exqCorw">Video</a>
+  # readings:
+  # Homeworks:
 
 - date: 10/8
   title: >
     <strong>Sparse and Overcomplete Representations | Dictionary Representations </strong>
   topics:
-  lectures: >
-    <a href="https://drive.google.com/file/d/1MPRPZTNdgqaJpVzkAa4P1-wmh4MI5cEv/view?usp=sharing">Slides</a>, <a href="">Video</a>
-  readings:
-  Homeworks:
+  # lectures: >
+  #   <a href="https://drive.google.com/file/d/1MPRPZTNdgqaJpVzkAa4P1-wmh4MI5cEv/view?usp=sharing">Slides</a>, <a href="">Video</a>
+  # readings:
+  # Homeworks:
 
 - date: 10/10
   title: >
     <strong>Guest Lecture: Compressive Sensing</strong>
   topics:
-  lectures: >
-    <a href="https://drive.google.com/file/d/1c56ctO43kTQ8YPYUvU3mWLE1T4I8JiMN/view?usp=drive_link">Slides</a>, <a href="">Video</a>
-  readings:
-  Homeworks: <a href="https://canvas.cmu.edu/courses/40522">HW 2 Deadline & HW 3 Release</a> 
+  # lectures: >
+  #   <a href="https://drive.google.com/file/d/1c56ctO43kTQ8YPYUvU3mWLE1T4I8JiMN/view?usp=drive_link">Slides</a>, <a href="">Video</a>
+  # readings:
+  # Homeworks: <a href="https://canvas.cmu.edu/courses/40522">HW 2 Deadline & HW 3 Release</a> 
 
 - date: 10/15
   title: >
     <strong>No Class</strong>
   topics:
-  lectures: >
-    -
-  readings:
-  Homeworks: <a href="">Fall Break</a>
+  # lectures: >
+  #   -
+  # readings:
+  # Homeworks: <a href="">Fall Break</a>
 
 - date: 10/17
   title: >
     <strong>No Class</strong>
   topics:
-  lectures: >
-    -
-  readings:
-  Homeworks: <a href="">Fall Break</a>
+  # lectures: >
+  #   -
+  # readings:
+  # Homeworks: <a href="">Fall Break</a>
 
 - date: 10/22
   title: >
     <strong>Regression and Prediction</strong>
   topics:
-  lectures: >
-    <a href="https://drive.google.com/file/d/1mLJK15Plsu6UuF9dGqA8CBlRDx_adD2N/view?usp=sharing">Slides</a>, <a href="">Video</a>
-  readings:
-  Homeworks: 
+  # lectures: >
+  #   <a href="https://drive.google.com/file/d/1mLJK15Plsu6UuF9dGqA8CBlRDx_adD2N/view?usp=sharing">Slides</a>, <a href="">Video</a>
+  # readings:
+  # Homeworks: 
 
 - date: 10/24
   title: >
     <strong>Linear Classifier</strong>
   topics:
-  lectures: >
-    <a href="https://drive.google.com/file/d/1XgprNT_028Ofo0UMaezdVmESILKfanFu/view?usp=drive_link">Slides</a>, <a href="">Video</a>
-  readings:
-  Homeworks:
+  # lectures: >
+  #   <a href="https://drive.google.com/file/d/1XgprNT_028Ofo0UMaezdVmESILKfanFu/view?usp=drive_link">Slides</a>, <a href="">Video</a>
+  # readings:
+  # Homeworks:
 
 - date: 10/29
   title: >
     <strong>Expectation Maximization 1</strong>
   topics:
-  lectures: >
-    <a href="https://drive.google.com/file/d/1hfgEpyVCWjolFTS7MQbghvmKpelFIe3P/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/rLaz0OXuOzM">Video</a>
-  readings:
-  Homeworks:
+  # lectures: >
+  #   <a href="https://drive.google.com/file/d/1hfgEpyVCWjolFTS7MQbghvmKpelFIe3P/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/rLaz0OXuOzM">Video</a>
+  # readings:
+  # Homeworks:
 
 - date: 10/31
   title: >
     <strong>Expectation Maximization 2</strong>
   topics:
-  lectures: >
-    <a href="https://drive.google.com/file/d/1CZDCnuInGF4-ManAsM1nOufCn0fS1x46/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/8jXSFV1vqlA">Video</a>
-  readings:
-  Homeworks:
+  # lectures: >
+  #   <a href="https://drive.google.com/file/d/1CZDCnuInGF4-ManAsM1nOufCn0fS1x46/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/8jXSFV1vqlA">Video</a>
+  # readings:
+  # Homeworks:
 
 - date: 11/5
   title: >
     <strong>No Class</strong>
   topics:
-  lectures: >
-    -
-  readings:
-  Homeworks: 
+  # lectures: >
+  #   -
+  # readings:
+  # Homeworks: 
 
 - date: 11/7
   title: >
     <strong>Canonical Correlation Analysis and Latent Dirichlet Allocation</strong>
   topics:
-  lectures: >
-    <a href="https://drive.google.com/file/d/1KSNdsuoHeUGgDs0GWXPvIMln1h91RkG5/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/GWffBM-1PDU">Video</a>
-  readings:
-  Homeworks: <a href="https://canvas.cmu.edu/courses/40522">HW 3 Deadline & HW 4 Release</a>
+  # lectures: >
+  #   <a href="https://drive.google.com/file/d/1KSNdsuoHeUGgDs0GWXPvIMln1h91RkG5/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/GWffBM-1PDU">Video</a>
+  # readings:
+  # Homeworks: <a href="https://canvas.cmu.edu/courses/40522">HW 3 Deadline & HW 4 Release</a>
 
 - date: 11/12
   title: >
     <strong>No Class</strong>
   topics:
-  lectures: >
-    <a href="">Slides</a>, <a href="">Video</a>
-  readings:
-  Homeworks:
+  # lectures: >
+  #   <a href="">Slides</a>, <a href="">Video</a>
+  # readings:
+  # Homeworks:
 
 - date: 11/14
   title: >
     <strong>Factor Analysis</strong>
   topics:
-  lectures: >
-    <a href="https://drive.google.com/file/d/1JbylEB9Lw59qX_9Ikv9UbXsQxcEGXPmY/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/V5EHRtM_LvA">Video</a>
-  readings:
-  Homeworks:
+  # lectures: >
+  #   <a href="https://drive.google.com/file/d/1JbylEB9Lw59qX_9Ikv9UbXsQxcEGXPmY/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/V5EHRtM_LvA">Video</a>
+  # readings:
+  # Homeworks:
 
 - date: 11/19
   title: >
     <strong>Hidden Markov Models</strong>
   topics:
-  lectures: >
-    <a href="">Slides</a>, <a href="">Video</a>
-  readings:
-  Homeworks:
+  # lectures: >
+  #   <a href="">Slides</a>, <a href="">Video</a>
+  # readings:
+  # Homeworks:
 
 - date: 11/21
   title: >
     <strong>Auto Regressive Models</strong>
   topics:
-  lectures: >
-    <a href="">Slides</a>, <a href="">Video</a>
-  readings:
-  Homeworks:
+  # lectures: >
+  #   <a href="">Slides</a>, <a href="">Video</a>
+  # readings:
+  # Homeworks:
 
 - date: 11/26
   title: >
     <strong>Kalman Filtering 1</strong>
   topics:
-  lectures: >
-    <a href="">Slides</a>, <a href="">Video</a>
-  readings:
-  Homeworks: <a href="https://canvas.cmu.edu/courses/40522">HW 4 Deadline</a>
+  # lectures: >
+  #   <a href="">Slides</a>, <a href="">Video</a>
+  # readings:
+  # Homeworks: <a href="https://canvas.cmu.edu/courses/40522">HW 4 Deadline</a>
 
 - date: 11/28
   title: >
     <strong>No Class</strong>
   topics:
-  lectures: >
-    -
-  readings:
-  Homeworks:
+  # lectures: >
+  #   -
+  # readings:
+  # Homeworks:
 
 - date: 12/3
   title: >
     <strong>Kalman Filtering 2</strong>
   topics:
-  lectures: >
-    <a href="">Slides</a>, <a href="">Video</a>
-  readings:
-  Homeworks: 
+  # lectures: >
+  #   <a href="">Slides</a>, <a href="">Video</a>
+  # readings:
+  # Homeworks: 
   
 - date: 12/5
   title: >
     <strong>Particle Filtering</strong>
   topics:
-  lectures: >
-    <a href="">Slides</a>, <a href="">Video</a>
-  readings:
-  Homeworks:
+  # lectures: >
+  #   <a href="">Slides</a>, <a href="">Video</a>
+  # readings:
+  # Homeworks:
 
 - date: 12/10
   title: >
     <strong>Time to Predict Very Rare Events</strong>
   topics:
-  lectures: >
-    <a href="">Slides</a>, <a href="">Video</a>
-  readings:
-  Homeworks:
+  # lectures: >
+  #   <a href="">Slides</a>, <a href="">Video</a>
+  # readings:
+  # Homeworks:
 
 - date: 12/12
   title: >
     <strong>Project Presentations</strong>
   topics:
-  lectures: >
-    <a href="">Slides</a>, <a href="">Video</a>
-  readings:
-  Homeworks:
+  # lectures: >
+  #   <a href="">Slides</a>, <a href="">Video</a>
+  # readings:
+  # Homeworks:
 
 - date: 12/18
   title: >
     <strong>Project Presentations</strong>
   topics:
-  lectures: >
-    <a href="https://canvas.cmu.edu/courses/40522">C A N V A S :)</a>
-  readings:
-  Homeworks:
+  # lectures: >
+  #   <a href="https://canvas.cmu.edu/courses/40522">C A N V A S :)</a>
+  # readings:
+  # Homeworks:

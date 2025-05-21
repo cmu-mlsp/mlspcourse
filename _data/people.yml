@@ -1,0 +1,13 @@
+- name: Bhiksha Raj
+  role: Instructor
+  bio: ""
+  website: "http://mlsp.cs.cmu.edu/people/bhiksha/"
+  email: "bhiksha@cs.cmu.edu"
+  photo: "bhiksha2-modified.png"
+
+- name: Siddhartha Vanjari
+  role: TA
+  bio: ""
+  website: ""
+  email: "svanjari@andrew.cmu.edu"
+  photo: ""

@@ -1,6 +1,6 @@
+
 <!DOCTYPE html>
 <html>
-
   <head>
   <meta charset="UTF-8">
   <meta http-equiv="content-language" content="en">
@@ -24,15 +24,13 @@
   
 </head>
 
-
   <body>
-
     <header class="site-header">
 
   <div class="wrapper">
 
     <span class="site-title">
-      <a class="page-link" href="http://localhost:4000/mlspcourse-2025/">11-755 MLSP</a>
+      <a class="page-link" href="http://localhost:4000/mlspcourse-2025//">11-755 MLSP</a>
     </span>
 
     <nav class="site-nav">
@@ -48,18 +46,33 @@
         </label>
       
       <div class="trigger">
-        <a class="page-link" href="/mlspcourse-2025/">home</a>
-        <a class="page-link" href="/mlspcourse-2025/schedule/">schedule</a>
-        <a class="page-link" href="/mlspcourse-2025/syllabus/">syllabus</a>
+        <a class="page-link" href="/mlspcourse-2025//">home</a>
+        <a class="page-link" href="/mlspcourse-2025//schedule/">schedule</a>
+        <a class="page-link" href="/mlspcourse-2025//syllabus/">syllabus</a>
         <!-- <a class="page-link" href="/mlsp-course/fall2023/projects/">projects</a> -->
       </div>
     </nav>
-
+    <!-- Dark mode toggle -->
+    <button id="darkToggle"
+            style="  
+              position: fixed;
+              top: 1rem;
+              right: 1rem;
+              z-index: 9999;
+              background: none;
+              border: none;
+              font-size: 1.5rem;
+              cursor: pointer;
+              color: inherit;
+              padding: 0.5rem;
+              border-radius: 50%;
+              transition: background-color 0.3s ease;">
+    🌙  
+    </button>
+    
   </div>
 
 </header>
-
-
 
     <div class="page-content">
       <div class="wrapper">
@@ -725,7 +738,6 @@
 
       </div>
     </div>
-
     <footer class="site-footer">
 
   <div class="wrapper">
@@ -751,8 +763,7 @@
   </div>
 
 </footer>
-
-
+  
     <!-- Load jQuery -->
 <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
 
@@ -795,7 +806,24 @@ ga('create', '', 'auto');
 ga('send', 'pageview');
 </script>
 
-
+    
+    <script>
+      const toggle = document.getElementById('darkToggle');
+      // On click, toggle class + icon + save choice
+      toggle.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+        toggle.textContent = document.body.classList.contains('dark-mode') ? '🌞' : '🌙';
+        localStorage.setItem('theme',
+          document.body.classList.contains('dark-mode') ? 'dark' : 'light'
+        );
+      });
+      // On load, restore
+      if (localStorage.getItem('theme') === 'dark') {
+        document.body.classList.add('dark-mode');
+      }
+      // Set correct icon at startup
+      toggle.textContent = document.body.classList.contains('dark-mode') ? '🌞' : '🌙';
+    </script>
+    
   </body>
-
 </html>

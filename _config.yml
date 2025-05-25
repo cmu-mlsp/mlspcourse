@@ -18,7 +18,8 @@ baseurl: "/mlspcourse-2025/" # the subpath of your site, e.g. /blog/
 # -----------------------------------------------------------------------------
 github_username: cmu-mlsp
 google_analytics: # analytics id
-youtube_channel: # channel id
+youtube_channel: "@MLSPCMU"  # channel handle
+youtube_channel_name: "YouTube"  # channel name to display
 rss:  # notes rss
 
 # -----------------------------------------------------------------------------

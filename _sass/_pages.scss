@@ -23,3 +23,8 @@ span.event {
 span.deadline {
     color: $red;
 }
+
+// Override to make all schedule rows white
+tr.warning, tr.warning > th, tr.warning > td {
+  background-color: #fff !important;
+}

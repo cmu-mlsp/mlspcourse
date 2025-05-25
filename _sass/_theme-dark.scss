@@ -6,10 +6,8 @@ body.dark-mode {
   $footer-bg-color:   #222222 !global;
   $footer-color:      #cccccc !global;
 
-  body {
-    background-color: $background-color;
-    color: $text-color;
-  }
+  background-color: $background-color;
+  color: $text-color;
 
   a {
     color: $link-color;
@@ -24,5 +22,69 @@ body.dark-mode {
     color: $footer-color;
   }
 
-  // add overrides for any other specific components here
+  .site-header {
+    background-color: $header-bg-color;
+  }
+
+  .site-footer {
+    background-color: $footer-bg-color;
+    color: $footer-color;
+  }
+
+  .page-content {
+    background-color: $background-color;
+  }
+
+  .post-content {
+    color: $text-color;
+  }
+
+  .post-title {
+    color: $text-color;
+  }
+
+  .post-description {
+    color: $text-color;
+  }
+
+  .instructor-info {
+    color: $text-color;
+  }
+
+  .news {
+    color: $text-color;
+  }
+
+  table {
+    color: $text-color;
+  }
+
+  td, th {
+    border-color: #444;
+  }
+
+  th {
+    background-color: #333;
+  }
+
+  td {
+    background-color: #222;
+  }
+
+  tr.warning,
+  tr.warning > th,
+  tr.warning > td {
+    background-color: #222 !important;
+    color: #eee !important;
+  }
+
+  // Ensure all text is light in dark mode
+  p, li, span, div, h1, h2, h3, h4, h5, h6, th, td, strong, em, .center, .news, .footer-heading, .contact-list, .social-media-list, .footer-col-wrapper, .footer-col, .post-meta, .announcement {
+    color: #eeeeee !important;
+  }
+
+  // Optional: make links more visible
+  a {
+    color: #8ab4f8 !important;
+  }
 }

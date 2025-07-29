@@ -66,6 +66,10 @@
     @extend %instructor-profile;
     width: 33%;
 }
+.instructor-profile-four-col {
+    @extend %instructor-profile;
+    width: 25%;
+}
 
 .news {
     border-top: 1px solid $grey-color-light;

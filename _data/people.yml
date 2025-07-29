@@ -11,3 +11,19 @@
   website: ""
   email: "svanjari@andrew.cmu.edu"
   photo: ""
+
+- name: Tianyun Zhang
+  role: TA
+  bio: ""
+  website: "https://tianyun-zhang.github.io/"
+  email: "tianyun@cmu.edu"
+  photo: "Tianyun.jpg"
+
+- name: Zhuoran Lucy Sun
+  role: TA
+  bio: ""
+  website: "https://lucys-99.github.io/"
+  email: "lucysun2@andrew.cmu.edu"
+  photo: "Lucy.png"
+
+  

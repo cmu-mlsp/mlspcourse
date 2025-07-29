@@ -421,17 +421,19 @@ tr.warning, tr.warning > th, tr.warning > td { background-color: #fff !important
 
 .instructors { padding: 0 0 0 1%; }
 
-.instructor-profile-two-col, .instructor-profile-three-col { display: block; float: left; height: 210px; }
-@media screen and (min-width: 676px) { .instructor-profile-two-col, .instructor-profile-three-col { height: 130px; } }
-.instructor-profile-two-col img, .instructor-profile-three-col img { border-radius: 50%; float: left; object-fit: cover; height: 100px; width: 100px; margin-right: 10px; }
-.instructor-profile-two-col ul.instructor-info, .instructor-profile-three-col ul.instructor-info { display: block; float: left; list-style-type: none; padding-left: 0; width: 65%; width: -webkit-calc(100% - 130px); width: calc(100% - 130px); min-width: 210px; }
-.instructor-profile-two-col ul.instructor-info a, .instructor-profile-three-col ul.instructor-info a { color: #2698BA; }
-.instructor-profile-two-col ul.instructor-info a:hover, .instructor-profile-three-col ul.instructor-info a:hover { text-decoration: underline; }
-.instructor-profile-two-col ul.instructor-info span, .instructor-profile-three-col ul.instructor-info span { font-weight: 400; }
+.instructor-profile-two-col, .instructor-profile-three-col, .instructor-profile-four-col { display: block; float: left; height: 210px; }
+@media screen and (min-width: 676px) { .instructor-profile-two-col, .instructor-profile-three-col, .instructor-profile-four-col { height: 130px; } }
+.instructor-profile-two-col img, .instructor-profile-three-col img, .instructor-profile-four-col img { border-radius: 50%; float: left; object-fit: cover; height: 100px; width: 100px; margin-right: 10px; }
+.instructor-profile-two-col ul.instructor-info, .instructor-profile-three-col ul.instructor-info, .instructor-profile-four-col ul.instructor-info { display: block; float: left; list-style-type: none; padding-left: 0; width: 65%; width: -webkit-calc(100% - 130px); width: calc(100% - 130px); min-width: 210px; }
+.instructor-profile-two-col ul.instructor-info a, .instructor-profile-three-col ul.instructor-info a, .instructor-profile-four-col ul.instructor-info a { color: #2698BA; }
+.instructor-profile-two-col ul.instructor-info a:hover, .instructor-profile-three-col ul.instructor-info a:hover, .instructor-profile-four-col ul.instructor-info a:hover { text-decoration: underline; }
+.instructor-profile-two-col ul.instructor-info span, .instructor-profile-three-col ul.instructor-info span, .instructor-profile-four-col ul.instructor-info span { font-weight: 400; }
 
 .instructor-profile-two-col { width: 50%; }
 
 .instructor-profile-three-col { width: 33%; }
+
+.instructor-profile-four-col { width: 25%; }
 
 .news { border-top: 1px solid #e8e8e8; margin-top: 30px; padding-top: 20px; }
 .news h2 { font-weight: bold; margin-top: 0; margin-bottom: 10px; }

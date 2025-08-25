@@ -24,7 +24,8 @@
   # lectures: >
   #   <a href="https://drive.google.com/file/d/12dMJJsmz_ygBAR1by6pARYzncMFo51XZ/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/WnMxuhkiwEg?si=tKbBHSRm3GdL17k_">Video</a>
   # readings:
-  # Homeworks: <a href="https://drive.google.com/file/d/1NF-9lIM595qjNM7BxGyynsY6ocFUu8oz/view?usp=sharing">HW 1 Release</a>
+  Homeworks: <a href="">HW 1 Release</a>
+  # https://drive.google.com/file/d/1NF-9lIM595qjNM7BxGyynsY6ocFUu8oz/view?usp=sharing
 
 - date: 9/4
   title: >
@@ -55,7 +56,7 @@
 
 - date: 9/16
   title: >
-    <strong>Classification and Metaclassifier</strong>
+    <strong>Non-Negative Matrix Factorization</strong>
   topics:
   # lectures: >
   #   <a href="https://drive.google.com/file/d/1aieMVt14a0ZfXJOm2tgZ-e61zwLI92ky/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/_C4GbvX7Lnw?si=DfGyzXMV9AX-M3EQ">Video</a>
@@ -64,25 +65,26 @@
 
 - date: 9/18
   title: >
-    <strong>Face Detection</strong>
+    <strong>Adaboost & Face Detection</strong>
   topics:
   # lectures: >
   #   <a href="https://drive.google.com/file/d/1-NsbX2y7csAIzF2oUNoREqCp8elPY3qn/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/HDfC9s_XT9I?si=sjzSQu6iVktQhUWX">Video</a>
   # readings:
-  # Homeworks: <a href="https://canvas.cmu.edu/courses/40522">HW 1 Deadline</a>
+  Homeworks: <a href="">HW 1 Deadline</a>
+  # https://canvas.cmu.edu/courses/40522
 
 - date: 9/23
   title: >
-    <strong>Non-Negative Matrix Factorization</strong>
+    <strong>Probability and Information Theory</strong>
   topics:
   # lectures: >
   #   <a href="https://drive.google.com/file/d/1KFwWmIo8HnTs-yZ0gApBRiZHzusPLQHs/view?usp=sharing">Slides</a>, <a href="https://youtu.be/TstQvMM8Hf4">Video</a>
   # readings:
-  # Homeworks: <a href="">HW 2 Release</a>
+  Homeworks: <a href="">HW 2 Release</a>
 
 - date: 9/25
   title: >
-    <strong>Probability and Information Theory</strong>
+    <strong>Independent Component Analysis</strong>
   topics:
   # lectures: >
   #   <a href="https://drive.google.com/file/d/13hwjV4yDkCcm19A3VWXSglTfv7ZLDmX0/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/uixovpFbfDw">Video</a>
@@ -91,7 +93,7 @@
 
 - date: 9/30
   title: >
-    <strong>Independent Component Analysis</strong>
+    <strong>Canonical Correlation Analysis </strong>
   topics:
   # lectures: >
   #   <a href="https://drive.google.com/file/d/1e5K0JrA5gn72cT_cua6D9b-EEewmE_Xd/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/DJyVmew5dZc">Video</a>
@@ -109,7 +111,7 @@
 
 - date: 10/7
   title: >
-    <strong>Sparse and Overcomplete Representations | Dictionary Representations </strong>
+    <strong>Sparse and Overcomplete Representations & Dictionary Representations </strong>
   topics:
   # lectures: >
   #   <a href="https://drive.google.com/file/d/1MPRPZTNdgqaJpVzkAa4P1-wmh4MI5cEv/view?usp=sharing">Slides</a>, <a href="">Video</a>
@@ -118,12 +120,13 @@
 
 - date: 10/9
   title: >
-    <strong>Guest Lecture: Compressive Sensing</strong>
+    <strong>Regression and Prediction</strong>
   topics:
   # lectures: >
   #   <a href="https://drive.google.com/file/d/1c56ctO43kTQ8YPYUvU3mWLE1T4I8JiMN/view?usp=drive_link">Slides</a>, <a href="">Video</a>
   # readings:
-  # Homeworks: <a href="https://canvas.cmu.edu/courses/40522">HW 2 Deadline & HW 3 Release</a> 
+  Homeworks: <a href="">HW 2 Deadline </a> 
+  # https://canvas.cmu.edu/courses/40522
 
 - date: 10/14
   title: >
@@ -132,7 +135,7 @@
   # lectures: >
   #   -
   # readings:
-  # Homeworks: <a href="">Fall Break</a>
+  Homeworks: <a href=""> HW 3 Release</a>
 
 - date: 10/16
   title: >
@@ -145,7 +148,7 @@
 
 - date: 10/21
   title: >
-    <strong>Regression and Prediction</strong>
+    <strong>Linear Classifier</strong>
   topics:
   # lectures: >
   #   <a href="https://drive.google.com/file/d/1mLJK15Plsu6UuF9dGqA8CBlRDx_adD2N/view?usp=sharing">Slides</a>, <a href="">Video</a>
@@ -154,7 +157,7 @@
 
 - date: 10/23
   title: >
-    <strong>Linear Classifier</strong>
+    <strong>Expectation Maximization 1</strong>
   topics:
   # lectures: >
   #   <a href="https://drive.google.com/file/d/1XgprNT_028Ofo0UMaezdVmESILKfanFu/view?usp=drive_link">Slides</a>, <a href="">Video</a>
@@ -163,7 +166,7 @@
 
 - date: 10/28
   title: >
-    <strong>Expectation Maximization 1</strong>
+    <strong>Expectation Maximization 2</strong>
   topics:
   # lectures: >
   #   <a href="https://drive.google.com/file/d/1hfgEpyVCWjolFTS7MQbghvmKpelFIe3P/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/rLaz0OXuOzM">Video</a>
@@ -172,7 +175,7 @@
 
 - date: 10/30
   title: >
-    <strong>Expectation Maximization 2</strong>
+    <strong>Maximum Entropy Models</strong>
   topics:
   # lectures: >
   #   <a href="https://drive.google.com/file/d/1CZDCnuInGF4-ManAsM1nOufCn0fS1x46/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/8jXSFV1vqlA">Video</a>
@@ -190,12 +193,14 @@
 
 - date: 11/6
   title: >
-    <strong>Canonical Correlation Analysis and Latent Dirichlet Allocation</strong>
+    <strong>Factor Analysis</strong>
   topics:
   # lectures: >
   #   <a href="https://drive.google.com/file/d/1KSNdsuoHeUGgDs0GWXPvIMln1h91RkG5/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/GWffBM-1PDU">Video</a>
   # readings:
-  # Homeworks: <a href="https://canvas.cmu.edu/courses/40522">HW 3 Deadline & HW 4 Release</a>
+  Homeworks: <a href="">HW 3 Deadline & HW 4 Release</a>
+# https://canvas.cmu.edu/courses/40522
+
 
 # - date: 11/11
 #   title: >
@@ -208,7 +213,7 @@
 
 - date: 11/11
   title: >
-    <strong>Factor Analysis</strong>
+    <strong>Hidden Markov Models</strong>
   topics:
   # lectures: >
   #   <a href="https://drive.google.com/file/d/1JbylEB9Lw59qX_9Ikv9UbXsQxcEGXPmY/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/V5EHRtM_LvA">Video</a>
@@ -217,7 +222,7 @@
 
 - date: 11/13
   title: >
-    <strong>Hidden Markov Models</strong>
+    <strong>Auto Regressive Models</strong>
   topics:
   # lectures: >
   #   <a href="">Slides</a>, <a href="">Video</a>
@@ -226,7 +231,7 @@
 
 - date: 11/18
   title: >
-    <strong>Auto Regressive Models</strong>
+    <strong>Kalman Filtering 1</strong>
   topics:
   # lectures: >
   #   <a href="">Slides</a>, <a href="">Video</a>
@@ -235,7 +240,7 @@
 
 - date: 11/20
   title: >
-    <strong>Kalman Filtering 1</strong>
+    <strong>Kalman Filtering 2</strong>
   topics:
   # lectures: >
   #   <a href="">Slides</a>, <a href="">Video</a>
@@ -253,7 +258,7 @@
 
 - date: 11/25
   title: >
-    <strong>Kalman Filtering 2</strong>
+    <strong>Particle Filtering</strong>
   topics:
   # lectures: >
   #   <a href="">Slides</a>, <a href="">Video</a>
@@ -271,12 +276,13 @@
   
 - date: 12/2
   title: >
-    <strong>Particle Filtering</strong>
+    <strong>Survival Analysis</strong>
   topics:
   # lectures: >
   #   <a href="">Slides</a>, <a href="">Video</a>
   # readings:
-  # Homeworks:
+  Homeworks: <a href="">HW 4 Deadline</a>
+# https://canvas.cmu.edu/courses/40522
 
 - date: 12/4
   title: >
@@ -289,7 +295,7 @@
 
   date: 12/9
   title: >
-    <strong>TBD</strong>
+    <strong>Exam Week </strong>
   topics:
   # lectures: >
   #   <a href="">Slides</a>, <a href="">Video</a>

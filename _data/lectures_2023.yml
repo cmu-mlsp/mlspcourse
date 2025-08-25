@@ -2,8 +2,8 @@
   title: >
     <strong>Introduction</strong>
   topics:
-  # lectures: >
-    <a href="https://drive.google.com/file/d/1FFRCRFE1oV4twMgke9kN_tbTrhqErZNC/view?usp=drive_link">Slides</a>, 
+  lectures: >
+    <a href="https://drive.google.com/file/d/1FFRCRFE1oV4twMgke9kN_tbTrhqErZNC/view?usp=drive_link">Slides</a> 
   #   <a href="https://youtu.be/PLGZCDRvkjs?si=YLQk1v50DkX-N2dt">Video</a>
   # readings:
   # Homeworks:
@@ -12,8 +12,9 @@
   title: >
     <strong>Linear Algebra 1</strong>
   topics:
-  # lectures: >
-    <a href="https://drive.google.com/file/d/1nggZr8-04HRyMnGQTmoqlK5uvh7InXZq/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/zU6QlQs2uO4?si=W8Hs8zNKFJxOKLOu">Video</a>
+  lectures: >
+    <a href="https://drive.google.com/file/d/1nggZr8-04HRyMnGQTmoqlK5uvh7InXZq/view?usp=drive_link">Slides</a> 
+  #  <a href="https://youtu.be/zU6QlQs2uO4?si=W8Hs8zNKFJxOKLOu">Video</a>
   # readings:
   # Homeworks:
 

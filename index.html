@@ -95,27 +95,119 @@ title: "11-755 MLSP"
 
  <div class="news">
     <h2>Office Hours</h2>
-  <!--
-    <table>
-      <tr>
-        <td class="date">Alex Gicham</td>
-        <td class="announcement">Friday: 10:00-11:00 AM CAT : In Person - Kigalit Campus, F309 </td>
-      </tr>
-      <tr>
-        <td class="date">Aneesh Atkuri</td>
-        <td class="announcement">Monday: 2:00-3:00 PM EST: In Person (TBD); Friday: 11:30 AM-12:30 PM EST: Zoom</td>
-      </tr>
-      <tr>
-        <td class="date">Abhinav Venkatadri</td>
-        <td class="announcement">Monday: 12:30-1:30 PM EST: <a href="https://cmu.zoom.us/j/2871043544Zoom" target="\_blank">Zoom</a>;  Tuesday 9:30-10:30 AM EST ; offline (TBD)</td>
-      </tr>
-      <tr>
-        <td class="date">Manohar Alapati</td>
-        <td class="announcement">Wednesday: 1:00-2:00 PM EST: <a href="https://cmu.zoom.us/s/9587669144" target="\_blank">Zoom</a>; Friday: 10:00 AM-11:00 AM EST: In Person (TBD)</td>
-      </tr>
-    </table>
-  -->
- </div>
+  
+  <div class="office-hours-grid">
+    <div class="oh-card">
+      <div class="oh-day">Sunday</div>
+      <div class="oh-time">09:00-10:00 AM EST</div>
+      <div class="oh-staff">
+        <a href="https://tianyun-zhang.github.io/" target="_blank">Tianyun</a>,
+        <a href="https://lucys-99.github.io/" target="_blank">Lucy</a>,
+        <a href="https://www.linkedin.com/in/siddhartha-vanjari/" target="_blank">Sid</a>
+      </div>
+      <div class="oh-location">
+        <a href="" class="zoom-link" target="_blank">
+          <i class="fas fa-video"></i> TBD
+        </a>
+      </div>
+    </div>
+
+    <div class="oh-card">
+      <div class="oh-day">Tuesday</div>
+      <div class="oh-time">12:30-01:30 PM EST</div>
+      <div class="oh-staff">
+        <a href="https://www.linkedin.com/in/siddhartha-vanjari/" target="_blank">Sid</a>,
+        <a href="https://www.linkedin.com/in/ayisha-nuhu/" target="_blank">Ayisha</a>
+      </div>
+      <div class="oh-location">
+        <span class="in-person">
+          <i class="fas fa-map-marker-alt"></i>  TBD
+        </span>
+      </div>
+    </div>
+
+    <div class="oh-card">
+      <div class="oh-day">Thursday</div>
+      <div class="oh-time">12:30-1:30 PM EST</div>
+      <div class="oh-staff">
+        <a href="https://tianyun-zhang.github.io/" target="_blank">Tianyun</a>,
+        <a href="https://lucys-99.github.io/" target="_blank">Lucy</a>,
+        <a href="https://www.linkedin.com/in/gabrial-zencha/" target="_blank">Gabby</a>
+      </div>
+      <div class="oh-location">
+        <a href="https://cmu.zoom.us/j/2871043544Zoom" class="zoom-link" target="_blank">
+          <i class="fas fa-video"></i> TBD
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Add this CSS to your stylesheet -->
+<style>
+.office-hours-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.oh-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.oh-card:hover {
+  transform: translateY(-5px);
+}
+
+.oh-day {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 8px;
+}
+
+.oh-time {
+  color: #7f8c8d;
+  margin-bottom: 12px;
+}
+
+.oh-staff {
+  margin-bottom: 12px;
+}
+
+.oh-staff a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.oh-staff a:hover {
+  text-decoration: underline;
+}
+
+.oh-location {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.zoom-link {
+  color: #2ecc71;
+  text-decoration: none;
+}
+
+.in-person {
+  color: #e74c3c;
+}
+
+.fas {
+  margin-right: 5px;
+}
+</style>
   
   <!-- Announcements  -->
   <div class="news">
@@ -189,4 +281,3 @@ ga('send', 'pageview');
 </script>
 
 
-  

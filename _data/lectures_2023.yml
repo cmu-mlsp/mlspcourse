@@ -22,8 +22,9 @@
   title: >
     <strong>Linear Algebra 2</strong>
   topics:
-  # lectures: >
-  #   <a href="https://drive.google.com/file/d/1LdEg9bJQu8_lO-j2goPfcfLXdpKaXbW2/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/WnMxuhkiwEg?si=tKbBHSRm3GdL17k_">Video</a>
+  lectures: >
+    <a href="https://drive.google.com/file/d/1LdEg9bJQu8_lO-j2goPfcfLXdpKaXbW2/view?usp=drive_link">Slides</a> 
+  # <a href="https://youtu.be/WnMxuhkiwEg?si=tKbBHSRm3GdL17k_">Video</a>
   # readings:
   Homeworks: <a href="">HW 1 Release</a>
   # https://drive.google.com/file/d/1NF-9lIM595qjNM7BxGyynsY6ocFUu8oz/view?usp=sharing

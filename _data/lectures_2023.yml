@@ -62,8 +62,9 @@
   title: >
     <strong>Non-Negative Matrix Factorization</strong>
   topics:
-  # lectures: >
-  #   <a href="https://drive.google.com/file/d/1aieMVt14a0ZfXJOm2tgZ-e61zwLI92ky/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/_C4GbvX7Lnw?si=DfGyzXMV9AX-M3EQ">Video</a>
+  lectures: >
+    <a href="https://drive.google.com/file/d/1kJOts__CcTQMEEGdB9Dhg4z6q9adsUbH/view?usp=drive_link">Slides</a> 
+  # <a href="https://youtu.be/_C4GbvX7Lnw?si=DfGyzXMV9AX-M3EQ">Video</a>
   # readings:
   # Homeworks:
 

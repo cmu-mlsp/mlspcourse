@@ -72,8 +72,9 @@
   title: >
     <strong>Adaboost & Face Detection</strong>
   topics:
-  # lectures: >
-  #   <a href="https://drive.google.com/file/d/1-NsbX2y7csAIzF2oUNoREqCp8elPY3qn/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/HDfC9s_XT9I?si=sjzSQu6iVktQhUWX">Video</a>
+  lectures: >
+    <a href="https://drive.google.com/file/d/18_GSZPWdICE9hbf4rVrvdGMtIZghlg3b/view?usp=drive_link">Slides</a> 
+  # <a href="https://youtu.be/HDfC9s_XT9I?si=sjzSQu6iVktQhUWX">Video</a>
   # readings:
   Homeworks: <a href="">HW 1 Deadline</a>
   # https://canvas.cmu.edu/courses/40522

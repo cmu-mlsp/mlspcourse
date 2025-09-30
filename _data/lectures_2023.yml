@@ -122,8 +122,7 @@
   # lectures: >
   #   <a href="https://drive.google.com/file/d/1c56ctO43kTQ8YPYUvU3mWLE1T4I8JiMN/view?usp=drive_link">Slides</a>, <a href="">Video</a>
   # readings:
-  Homeworks: <a href="">HW 2 Deadline </a> 
-  # https://canvas.cmu.edu/courses/40522
+  Homeworks:
 
 
 - date: 10/9
@@ -133,7 +132,8 @@
   # lectures: >
   #   <a href="https://drive.google.com/file/d/1mLJK15Plsu6UuF9dGqA8CBlRDx_adD2N/view?usp=sharing">Slides</a>, <a href="">Video</a>
   # readings:
-  # Homeworks: 
+  Homeworks:  <a href="">HW 2 Deadline </a> 
+  # https://canvas.cmu.edu/courses/40522
 
 - date: 10/14
   title: >

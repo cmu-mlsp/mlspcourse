@@ -99,15 +99,6 @@
 
 - date: 9/30
   title: >
-    <strong>Canonical Correlation Analysis </strong>
-  topics:
-  # lectures: >
-  #   <a href="https://drive.google.com/file/d/1e5K0JrA5gn72cT_cua6D9b-EEewmE_Xd/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/DJyVmew5dZc">Video</a>
-  # readings:
-  # Homeworks:
-
-- date: 10/2
-  title: >
     <strong>Clustering</strong>
   topics:
   # lectures: >
@@ -115,7 +106,7 @@
   # readings:
   # Homeworks:
 
-- date: 10/7
+- date: 10/2
   title: >
     <strong>Sparse and Overcomplete Representations & Dictionary Representations </strong>
   topics:
@@ -124,7 +115,7 @@
   # readings:
   # Homeworks:
 
-- date: 10/9
+- date: 10/7
   title: >
     <strong>Regression and Prediction</strong>
   topics:
@@ -133,6 +124,16 @@
   # readings:
   Homeworks: <a href="">HW 2 Deadline </a> 
   # https://canvas.cmu.edu/courses/40522
+
+
+- date: 10/9
+  title: >
+    <strong>Linear Classifier</strong>
+  topics:
+  # lectures: >
+  #   <a href="https://drive.google.com/file/d/1mLJK15Plsu6UuF9dGqA8CBlRDx_adD2N/view?usp=sharing">Slides</a>, <a href="">Video</a>
+  # readings:
+  # Homeworks: 
 
 - date: 10/14
   title: >
@@ -154,12 +155,13 @@
 
 - date: 10/21
   title: >
-    <strong>Linear Classifier</strong>
+    <strong>Canonical Correlation Analysis </strong>
   topics:
   # lectures: >
-  #   <a href="https://drive.google.com/file/d/1mLJK15Plsu6UuF9dGqA8CBlRDx_adD2N/view?usp=sharing">Slides</a>, <a href="">Video</a>
+  #   <a href="https://drive.google.com/file/d/1e5K0JrA5gn72cT_cua6D9b-EEewmE_Xd/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/DJyVmew5dZc">Video</a>
   # readings:
-  # Homeworks: 
+  # Homeworks:
+
 
 - date: 10/23
   title: >

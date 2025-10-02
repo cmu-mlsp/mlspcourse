@@ -109,21 +109,23 @@
 
 - date: 10/2
   title: >
-    <strong>Canonical Correlation Analysis </strong>
+    <strong>Sparse and Overcomplete Representations & Dictionary Representations </strong>
   topics:
   lectures: >
-    <a href="https://drive.google.com/file/d/1mfYNRL_8Scst2AImuGoZjtGFAy6oeKAC/view?usp=sharing">Slides</a>
+    <a href="https://drive.google.com/file/d/1Wm4HeGcrhmE2HI4SivV3G7O6NkTNf7KQ/view?usp=sharing">Slides</a>, <a href="">Video</a>
   # readings:
   # Homeworks:
 
-- date: 10/2
+
+- date: 10/7
   title: >
-    <strong>Sparse and Overcomplete Representations & Dictionary Representations </strong>
+    <strong>Canonical Correlation Analysis </strong>
   topics:
   # lectures: >
-  #   <a href="https://drive.google.com/file/d/1MPRPZTNdgqaJpVzkAa4P1-wmh4MI5cEv/view?usp=sharing">Slides</a>, <a href="">Video</a>
+  # <a href="https://drive.google.com/file/d/1mfYNRL_8Scst2AImuGoZjtGFAy6oeKAC/view?usp=sharing">Slides</a>
   # readings:
   # Homeworks:
+
 
 - date: 10/7
   title: >

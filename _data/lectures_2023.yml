@@ -154,7 +154,7 @@
   # lectures: >
   #   -
   # readings:
-  Homeworks: <a href=""> HW 3 Release</a>
+  # Homeworks: <a href="">  HW 3 Release</a>
 
 - date: 10/16
   title: >
@@ -172,7 +172,7 @@
   # lectures: >
   #   <a href="https://drive.google.com/file/d/1e5K0JrA5gn72cT_cua6D9b-EEewmE_Xd/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/DJyVmew5dZc">Video</a>
   # readings:
-  # Homeworks:
+  Homeworks: <a> HW 3 Release </a>
 
 
 - date: 10/23

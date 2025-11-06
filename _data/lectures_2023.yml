@@ -213,10 +213,10 @@
 
 - date: 11/6
   title: >
-    <strong>Factor Analysis</strong>
+    <strong>Max Entropy Modeling</strong>
   topics:
-  # lectures: >
-  #   <a href="https://drive.google.com/file/d/1KSNdsuoHeUGgDs0GWXPvIMln1h91RkG5/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/GWffBM-1PDU">Video</a>
+  lectures: >
+    <a href="https://drive.google.com/file/d/1s9mCsOASQZjYLiJ4gwgprqgIHoPTnDiZ/view?usp=sharing">Slides</a>
   # readings:
   Homeworks: <a href="">HW 3 Deadline & HW 4 Release</a>
 # https://canvas.cmu.edu/courses/40522

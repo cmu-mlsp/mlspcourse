@@ -233,16 +233,15 @@
 
 - date: 11/11
   title: >
-    <strong>Hidden Markov Models</strong>
+    <strong>Hidden Markov Models 1</strong>
   topics:
-  # lectures: >
-  #   <a href="https://drive.google.com/file/d/1JbylEB9Lw59qX_9Ikv9UbXsQxcEGXPmY/view?usp=drive_link">Slides</a>, <a href="https://youtu.be/V5EHRtM_LvA">Video</a>
-  # readings:
+  lectures: >
+    <a href="https://drive.google.com/file/d/10nxS2i447NYu0PhyHaNf-TUwhC2wcilA/view?usp=sharing">Slides</a>  # readings:
   # Homeworks:
 
 - date: 11/13
   title: >
-    <strong>Auto Regressive Models</strong>
+    <strong>Hidden Markov Models 2</strong>
   topics:
   # lectures: >
   #   <a href="">Slides</a>, <a href="">Video</a>
@@ -251,7 +250,7 @@
 
 - date: 11/18
   title: >
-    <strong>Kalman Filtering 1</strong>
+    <strong>	Auto Regressive Models </strong>
   topics:
   # lectures: >
   #   <a href="">Slides</a>, <a href="">Video</a>
@@ -260,7 +259,7 @@
 
 - date: 11/20
   title: >
-    <strong>Kalman Filtering 2</strong>
+    <strong>Kalman Filtering </strong>
   topics:
   # lectures: >
   #   <a href="">Slides</a>, <a href="">Video</a>

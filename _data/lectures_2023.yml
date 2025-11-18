@@ -250,16 +250,16 @@
 
 - date: 11/18
   title: >
-    <strong>	Auto Regressive Models </strong>
+    <strong> Kalman Filtering 1</strong>
   topics:
-  # lectures: >
-  #   <a href="">Slides</a>, <a href="">Video</a>
+  lectures: >
+    <a href="https://drive.google.com/file/d/1oR4W7S5q3NtqsGrVU97kEwfdEB7o0KJ6/view?usp=sharing">Slides</a>
   # readings:
   # Homeworks:
 
 - date: 11/20
   title: >
-    <strong>Kalman Filtering </strong>
+    <strong>Kalman Filtering 2</strong>
   topics:
   # lectures: >
   #   <a href="">Slides</a>, <a href="">Video</a>

@@ -261,10 +261,10 @@
   title: >
     <strong>Kalman Filtering 2</strong>
   topics:
-  # lectures: >
-  #   <a href="">Slides</a>, <a href="">Video</a>
+  lectures: >
+    <a href="https://drive.google.com/file/d/1qn1XwFmdiCw0r8TYgYVshUp5gRuGC53G/view?usp=sharing">Slides</a>
   # readings:
-  # Homeworks: <a href="https://canvas.cmu.edu/courses/40522">HW 4 Deadline</a>
+  Homeworks: <a href="">HW 4 Deadline</a>
 
 # - date: 11/25
 #   title: >

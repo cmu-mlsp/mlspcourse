@@ -277,14 +277,14 @@
 
 - date: 11/25
   title: >
-    <strong>Particle Filtering</strong>
+    <strong>Kalman Filtering 3</strong>
   topics:
-  # lectures: >
-  #   <a href="">Slides</a>, <a href="">Video</a>
+  lectures: >
+    <a href="https://drive.google.com/file/d/1E_WBqB5WBJ53vGSjTtjv7nR085RVCe9f/view?usp=sharing">Slides</a>
   # readings:
   # Homeworks: 
 
-  - date: 11/27
+- date: 11/27
   title: >
     <strong>No Class (Thanksgiving)</strong>
   topics:

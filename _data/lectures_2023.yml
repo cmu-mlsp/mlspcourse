@@ -301,7 +301,6 @@
   #   <a href="">Slides</a>, <a href="">Video</a>
   # readings:
   Homeworks: <a href="">HW 4 Deadline</a>
-# https://canvas.cmu.edu/courses/40522
 
 - date: 12/4
   title: >
@@ -312,7 +311,7 @@
   # readings:
   # Homeworks:
 
-  date: 12/9
+- date: 12/9
   title: >
     <strong>Exam Week </strong>
   topics:
@@ -321,20 +320,20 @@
   # readings:
   # Homeworks:
 
-- date: 12/11
-  title: >
-    <strong>Project Presentations</strong>
-  topics:
-  # lectures: >
-  #   <a href="">Slides</a>, <a href="">Video</a>
-  # readings:
-  # Homeworks:
+# - date: 12/11
+#   title: >
+#     <strong>Project Presentations</strong>
+#   topics:
+#   # lectures: >
+#   #   <a href="">Slides</a>, <a href="">Video</a>
+#   # readings:
+#   # Homeworks:
 
-- date: 12/23
-  title: >
-    <strong>Project Presentations</strong>
-  topics:
-  # lectures: >
-  #   <a href="https://canvas.cmu.edu/courses/40522">C A N V A S :)</a>
-  # readings:
-  # Homeworks:
+# - date: 12/23
+#   title: >
+#     <strong>Project Presentations</strong>
+#   topics:
+#   # lectures: >
+#   #   <a href="https://canvas.cmu.edu/courses/40522">C A N V A S :)</a>
+#   # readings:
+#   # Homeworks:

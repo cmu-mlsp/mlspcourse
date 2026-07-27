@@ -1,9 +1,14 @@
 ---
 layout: page
-permalink: /mlspcourse/projects/
+permalink: /projects/
 title: Examples of Previous Project Reports
-description: Project reports from student teams who participated in previous editions of the MMML course
+description: Project reports released by student teams from previous editions of the course
 ---
+
+<!-- NOTE: this list is inherited from the MMML course template and is not linked
+     from the navigation. TODO: replace with MLSP project reports before enabling
+     the "projects" link in _includes/header.html. -->
+
 
 We list here only project reports that were publicly released by students. It should be noted that some of these links are for the follow-up submissions to conferences, after some revisions of the original project reports.
 

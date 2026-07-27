@@ -1,0 +1,177 @@
+// =============================================================================
+// Schedule page
+//
+// Two presentations live here:
+//   1. `.topic-*`  — the Fall 2026 "schedule TBA" topic outline (no dates).
+//   2. `.table`    — the dated lecture table, used again once the calendar is
+//                    published (see the commented-out block in _pages/schedule.md).
+// =============================================================================
+
+.topic-modules {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.topic-module {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem 1.35rem 1.35rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.35s var(--ease), box-shadow 0.35s var(--ease), border-color 0.35s var(--ease);
+
+  &:hover {
+    transform: translateY(-3px);
+    border-color: var(--accent-wash);
+    box-shadow: var(--shadow-md);
+  }
+}
+
+.topic-module__index {
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.45rem;
+}
+
+.topic-module__title {
+  font-family: var(--font-display);
+  font-size: 1.16rem;
+  font-weight: 600;
+  letter-spacing: -0.012em;
+  color: var(--ink);
+  margin: 0 0 0.9rem;
+}
+
+.topic-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.93rem;
+
+  li {
+    position: relative;
+    padding: 0.42rem 0 0.42rem 1.1rem;
+    color: var(--ink-2);
+    border-top: 1px solid var(--line);
+
+    &:first-child {
+      border-top: 0;
+    }
+
+    // Small signal tick in place of a bullet.
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.95em;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--accent);
+      opacity: 0.5;
+    }
+  }
+}
+
+.topic-list__aside {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin-top: 0.15rem;
+}
+
+// -----------------------------------------------------------------------------
+// Dated lecture table (restored once the Fall 2026 calendar is set)
+// -----------------------------------------------------------------------------
+.schedule-table-wrap {
+  overflow-x: auto;
+  margin-top: 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.post-content .table {
+  margin-bottom: 0;
+  font-size: 0.93rem;
+
+  > thead > tr > th {
+    font-family: var(--font-mono);
+    font-size: 0.64rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    padding: 0.9rem 1rem;
+    border-bottom: 1px solid var(--line);
+    background: var(--surface-sunken);
+  }
+
+  > tbody > tr > th,
+  > tbody > tr > td {
+    padding: 0.85rem 1rem;
+    border-top: 1px solid var(--line);
+    color: var(--ink-2);
+    vertical-align: top;
+  }
+
+  > tbody > tr > th {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    font-weight: 500;
+    color: var(--accent);
+    white-space: nowrap;
+  }
+
+  strong {
+    color: var(--ink);
+    font-weight: 600;
+  }
+
+  ul {
+    margin: 0.35rem 0 0;
+    padding-left: 1.1rem;
+  }
+}
+
+.table-hover > tbody > tr:hover {
+  background-color: var(--surface-sunken);
+}
+
+// Row states.
+tr.info > td {
+  background: var(--accent-wash) !important;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-deep) !important;
+}
+
+tr.warning,
+tr.warning > th,
+tr.warning > td {
+  background-color: transparent !important;
+}
+
+span.event {
+  color: var(--accent);
+}
+
+span.deadline {
+  color: var(--crimson);
+}

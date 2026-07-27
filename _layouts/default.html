@@ -1,34 +1,51 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
   {% include head.html %}
   <body>
+    <script>
+      // Applied before first paint (flag is set in head.html).
+      if (document.documentElement.classList.contains('dark-mode-preload')) {
+        document.body.classList.add('dark-mode');
+      }
+    </script>
+
+    <a class="skip-link" href="#main">Skip to content</a>
+
     {% include header.html %}
-    <div class="page-content">
+
+    <div class="page-content" id="main">
       <div class="wrapper">
         {{ content }}
       </div>
     </div>
+
     {% include footer.html %}
     {% include hemline.html %}
-    
+
     <script>
-      const toggle = document.getElementById('darkToggle');
-      // On click, toggle class + icon + save choice
-      toggle.addEventListener('click', () => {
-        document.body.classList.toggle('dark-mode');
-        toggle.textContent = document.body.classList.contains('dark-mode') ? '🌞' : '🌙';
-        localStorage.setItem('theme',
-          document.body.classList.contains('dark-mode') ? 'dark' : 'light'
-        );
-      });
-      // On load, restore
-      if (localStorage.getItem('theme') === 'dark') {
-        document.body.classList.add('dark-mode');
-      }
-      // Set correct icon at startup
-      toggle.textContent = document.body.classList.contains('dark-mode') ? '🌞' : '🌙';
+      (function () {
+        var toggle = document.getElementById('darkToggle');
+        var moon = '\uD83C\uDF19';
+        var sun = '\u2600\uFE0F';
+
+        function paint() {
+          var dark = document.body.classList.contains('dark-mode');
+          toggle.textContent = dark ? sun : moon;
+          toggle.setAttribute('aria-pressed', dark ? 'true' : 'false');
+        }
+
+        toggle.addEventListener('click', function () {
+          document.body.classList.toggle('dark-mode');
+          try {
+            localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+          } catch (e) {}
+          paint();
+        });
+
+        paint();
+      })();
     </script>
-    
+
   </body>
 </html>

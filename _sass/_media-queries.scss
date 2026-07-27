@@ -4,35 +4,11 @@
     }
 }
 
+// The root size steps up gently instead of the old 16 -> 18 -> 20px jump, which
+// used to blow the layout up on large displays.
 @media screen and (min-width: $viewport-small) {
   html {
     font-size: 16px;
-  }
-
-  h1,
-  .h1 {
-    font-size: $h1;
-  }
-
-  .site-header {
-    text-align: left;
-  }
-
-  .site-nav {
-    margin-top: 0;
-  }
-
-  .site-header a {
-    font-size: $h4;
-  }
-
-  .site-header .site-title {
-    font-size: $h3;
-    float: left;
-  }
-
-  .site-header .site-nav {
-    float: right;
   }
 
   blockquote {
@@ -51,13 +27,13 @@
 
 @media screen and (min-width: $viewport-medium) {
   html {
-    font-size: 18px;
+    font-size: 16.5px;
   }
 }
 
 @media screen and (min-width: $viewport-large) {
   html {
-    font-size: 20px;
+    font-size: 17px;
   }
 }
 

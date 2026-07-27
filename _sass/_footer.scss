@@ -1,77 +1,104 @@
 .site-footer {
-  border-top: 1px solid $grey-color-light;
-  padding: $vertical-spacing-unit 0;
+  position: relative;
+  margin-top: 3.5rem;
+  padding: 2.4rem 0 2.8rem;
+  border-top: 1px solid var(--line);
+  background: var(--surface-veil);
+  color: var(--ink-2);
+  font-size: 0.88rem;
+
+  // Signal hairline along the top edge, mirroring the header.
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -1px;
+    height: 1px;
+    background-image: linear-gradient(90deg, transparent 0%, var(--accent) 24%, var(--accent-bright) 50%, var(--crimson) 78%, transparent 100%);
+    opacity: 0.5;
+  }
 
   a {
-    color: $theme-color;
-    i { color: $text-color; }
+    color: var(--accent);
+
+    i {
+      color: var(--ink-3);
+    }
 
     &:hover {
-      text-decoration: underline;
-      i { color: $theme-color; }
+      text-decoration: none;
+      color: var(--accent-deep);
+
+      i {
+        color: var(--accent);
+      }
     }
   }
 
   ul {
     padding-left: 0;
+    margin-bottom: 0;
   }
 }
 
 .footer-heading {
-  font-size: 1.125rem;
-  margin-bottom: $vertical-spacing-unit / 2;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: -0.012em;
+  color: var(--ink);
+  margin-top: 0;
+  margin-bottom: 1.2rem;
 }
 
 .contact-list,
 .social-media-list {
   list-style: none;
   margin-left: 0;
+  font-size: 0.86rem;
+
+  li {
+    margin-bottom: 0.35rem;
+  }
 }
 
 .footer-col-wrapper {
-  color: $grey-color;
-  font-size: 0.9375;
-  margin-left: -$horizontal-spacing-unit / 2;
-  @extend .clearfix;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.6rem 2rem;
+  color: var(--ink-3);
+  font-size: 0.86rem;
 }
 
 .footer-col {
-  width: -webkit-calc(100% - (#{$horizontal-spacing-unit} / 2));
-  width:         calc(100% - (#{$horizontal-spacing-unit} / 2));
-  margin-bottom: $vertical-spacing-unit / 2;
-  padding-left: $horizontal-spacing-unit / 2;
-}
-
-.footer-col-1,
-.footer-col-2 {
-  width: -webkit-calc(50% - (#{$horizontal-spacing-unit} / 2));
-  width:         calc(50% - (#{$horizontal-spacing-unit} / 2));
+  flex: 1 1 200px;
+  width: auto;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 .footer-col-3 {
-  width: -webkit-calc(100% - (#{$horizontal-spacing-unit} / 2));
-  width:         calc(100% - (#{$horizontal-spacing-unit} / 2));
-}
+  flex: 1 1 260px;
+  text-align: left;
 
-@media screen and (min-width: $on-large) {
-  .footer-col-1 {
-    width: -webkit-calc(35% - (#{$horizontal-spacing-unit} / 2));
-    width:         calc(35% - (#{$horizontal-spacing-unit} / 2));
+  p {
+    font-size: 0.82rem;
+    color: var(--ink-3);
+    margin-bottom: 0;
   }
 
-  .footer-col-2 {
-    width: -webkit-calc(20% - (#{$horizontal-spacing-unit} / 2));
-    width:         calc(20% - (#{$horizontal-spacing-unit} / 2));
-  }
-
-  .footer-col-3 {
-    width: -webkit-calc(45% - (#{$horizontal-spacing-unit} / 2));
-    width:         calc(45% - (#{$horizontal-spacing-unit} / 2));
+  @media screen and (min-width: $on-large) {
+    text-align: right;
   }
 }
 
-@media screen and (min-width: $on-medium) {
-  .footer-col {
-    float: left;
-  }
+.footer-term {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin-top: 0.4rem;
 }

@@ -1,33 +1,24 @@
 ---
 layout: default
 ---
+{% comment %}
+  The dated lecture table now lives inside _pages/schedule.md (currently
+  commented out) so that the whole calendar — rows, slide links and homework
+  links — can be restored from a single place. This layout only provides the
+  page shell.
+{% endcomment %}
 <div class="post">
 
-  <header class="post-header">
+  <header class="post-header rise">
+    <p class="eyebrow">{{ site.course_number }} &middot; {{ site.course_term }}</p>
     <h1 class="post-title">{{ page.title }}</h1>
-    <h2 class="post-description">{{ page.description }}</h2>
+    {% if page.description %}<h2 class="post-description">{{ page.description }}</h2>{% endif %}
   </header>
 
-  <article class="post-content {{page.title}} clearfix">
-    <table class="table table-hover">
-      <colgroup>
-        <col style="width:5%">
-        <col style="width:50%">
-        <col style="width:20%">
-        <col style="width:25%">
-      </colgroup>
-      <thead class="thead-light">
-        <tr>
-          <th scope="col">Date</th>
-          <th scope="col">Topics</th>
-          <th scope="col">Lectures</th>
-          <th scope="col">Homeworks</th>
-        </tr>
-      </thead>
-      <tbody>
-        {{ content }}
-      </tbody>
-    </table>
+  <hr class="signal-rule rise rise-2" />
+
+  <article class="post-content clearfix rise rise-2">
+    {{ content }}
   </article>
 
 </div>

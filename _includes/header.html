@@ -4,11 +4,12 @@
 
     <span class="site-title">
       <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/">{{ site.name }}</a>
+      <span class="site-title__term">{{ site.course_term }}</span>
     </span>
 
     <nav class="site-nav">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
+        <label for="nav-trigger" aria-label="Toggle navigation">
           <span class="menu-icon">
             <svg viewBox="0 0 18 15" width="18px" height="15px">
               <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
@@ -17,32 +18,21 @@
             </svg>
           </span>
         </label>
-      
+
       <div class="trigger">
-        <a class="page-link" href="{{ site.baseurl }}/">home</a>
-        <a class="page-link" href="{{ site.baseurl }}/schedule/">schedule</a>
-        <a class="page-link" href="{{ site.baseurl }}/syllabus/">syllabus</a>
-        <!-- <a class="page-link" href="/mlsp-course/fall2023/projects/">projects</a> -->
+        <a class="page-link{% if page.url == '/' %} page-link--active{% endif %}" href="{{ site.baseurl }}/">home</a>
+        <a class="page-link{% if page.url contains 'schedule' %} page-link--active{% endif %}" href="{{ site.baseurl }}/schedule/">schedule</a>
+        <a class="page-link{% if page.url contains 'syllabus' %} page-link--active{% endif %}" href="{{ site.baseurl }}/syllabus/">syllabus</a>
+        <!-- TODO: restore when the Fall 2026 project page is ready
+        <a class="page-link" href="{{ site.baseurl }}/projects/">projects</a>
+        -->
       </div>
+
+      <button id="darkToggle" class="theme-toggle" type="button" aria-label="Switch between light and dark theme">
+        <span aria-hidden="true">&#127769;</span>
+      </button>
     </nav>
-    <!-- Dark mode toggle -->
-    <button id="darkToggle"
-            style="  
-              position: fixed;
-              top: 1rem;
-              right: 1rem;
-              z-index: 9999;
-              background: none;
-              border: none;
-              font-size: 1.5rem;
-              cursor: pointer;
-              color: inherit;
-              padding: 0.5rem;
-              border-radius: 50%;
-              transition: background-color 0.3s ease;">
-    🌙  
-    </button>
-    
+
   </div>
 
 </header>

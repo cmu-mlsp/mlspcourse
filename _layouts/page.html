@@ -3,12 +3,15 @@ layout: default
 ---
 <div class="post">
 
-  <header class="post-header">
+  <header class="post-header rise">
+    <p class="eyebrow">{{ site.course_number }} &middot; {{ site.course_term }}</p>
     <h1 class="post-title">{{ page.title }}</h1>
-    <h2 class="post-description">{{ page.description }}</h2>
+    {% if page.description %}<h2 class="post-description">{{ page.description }}</h2>{% endif %}
   </header>
 
-  <article class="post-content {{page.title}} clearfix">
+  <hr class="signal-rule rise rise-2" />
+
+  <article class="post-content clearfix rise rise-2">
     {{ content }}
   </article>
 

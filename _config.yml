@@ -6,12 +6,17 @@ name: 11-755 MLSP
 title: Machine Learning for Signal Processing
 email:
 description: >
-  11-755 - Machine Learining for Signal Processing - Carnegie Mellon University - Fall 2025
+  11-755 - Machine Learning for Signal Processing - Carnegie Mellon University - Fall 2026
+
+# Single source of truth for term branding (header badge, footer, page copy).
+course_number: 11-755
+course_term: Fall 2026
+course_year: 2026
 # footer_text: >
 #  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
 url: "https://cmu-mlsp.github.io"  # the base hostname & protocol for your site
-baseurl: "/mlspcourse/" # the subpath of your site, e.g. /blog/
+baseurl: "/mlspcourse" # the subpath of your site, e.g. /blog/ (no trailing slash)
 
 # -----------------------------------------------------------------------------
 # Social integration

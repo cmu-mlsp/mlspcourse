@@ -1,44 +1,51 @@
+# -----------------------------------------------------------------------------
+# Teaching staff, Fall 2026.
+#
+# Only confirmed staff are listed. The Fall 2025 teaching assistants are kept
+# commented out below; the landing page (index.html) has matching commented-out
+# cards, so restoring someone means uncommenting in both places.
+# -----------------------------------------------------------------------------
+
 - name: Bhiksha Raj
   role: Instructor
   bio: ""
-  website: "http://mlsp.cs.cmu.edu/people/bhiksha/"
+  website: "https://engineering.cmu.edu/directory/bios/ramakrishnan-bhiksha-raj.html"
   email: "bhiksha@cs.cmu.edu"
   photo: "bhiksha2-modified.png"
 
 - name: Siddhartha Vanjari
   role: TA
   bio: ""
-  website: ""
+  website: "https://www.linkedin.com/in/siddhartha-vanjari/"
   email: "svanjari@andrew.cmu.edu"
-  photo: ""
+  photo: "Scotch.jpeg"
 
-- name: Tianyun Zhang
-  role: TA
-  bio: ""
-  website: "https://tianyun-zhang.github.io/"
-  email: "tianyun@cmu.edu"
-  photo: "Tianyun.jpg"
-
-- name: Zhuoran Lucy Sun
-  role: TA
-  bio: ""
-  website: "https://lucys-99.github.io/"
-  email: "lucysun2@andrew.cmu.edu"
-  photo: "Lucy.png"
-
-- name: Gabrial Zencha Ashungafac
-  role: TA
-  bio: ""
-  website: "https://www.linkedin.com/in/gabrial-zencha/"
-  email: "gzenchaa@andrew.cmu.edu"
-  photo: "Gabby.png"
-
-
-- name: Ayisha Nuhu
-  role: TA
-  bio: ""
-  website: "https://www.linkedin.com/in/ayisha-nuhu/"
-  email: "anuhu@andrew.cmu.edu"
-  photo: "Ayisha.jpg"
-
-  
+# TODO: restore / replace with the confirmed Fall 2026 teaching assistants.
+#
+# - name: Tianyun Zhang
+#   role: TA
+#   bio: ""
+#   website: "https://tianyun-zhang.github.io/"
+#   email: "tianyun2@andrew.cmu.edu"
+#   photo: "Tianyun.jpg"
+#
+# - name: Zhuoran Lucy Sun
+#   role: TA
+#   bio: ""
+#   website: "https://lucys-99.github.io/"
+#   email: "lucysun2@andrew.cmu.edu"
+#   photo: "Lucy.png"
+#
+# - name: Gabrial Zencha Ashungafac
+#   role: TA
+#   bio: ""
+#   website: "https://www.linkedin.com/in/gabrial-zencha/"
+#   email: "gzenchaa@andrew.cmu.edu"
+#   photo: "Gabby.png"
+#
+# - name: Ayisha Nuhu
+#   role: TA
+#   bio: ""
+#   website: "https://www.linkedin.com/in/ayisha-nuhu/"
+#   email: "anuhu@andrew.cmu.edu"
+#   photo: "Ayisha.jpg"

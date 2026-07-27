@@ -4,290 +4,289 @@ title: "11-755 MLSP"
 ---
 
 <div class="post">
-  <header class="post-header about">
-    <img class="logo" src="assets/img/cmu-logo.png">
-    <h1 class="post-title"><b>M</b>achine <b>L</b>earning for <b>S</b>ignal <b>P</b>rocessing</h1>
-    <h2 class="post-description clearfix">11-755 • Fall 2025 • Carnegie Mellon University</h2>
+
+  <!-- ===================================================================== -->
+  <!-- Masthead                                                              -->
+  <!-- ===================================================================== -->
+  <header class="post-header about hero">
+
+    <!-- Decorative drifting waveform behind the title -->
+    <div class="hero__wave" aria-hidden="true">
+      <svg viewBox="0 0 720 200" preserveAspectRatio="none" focusable="false">
+        <g>
+          <path stroke-width="1.6" d="M-180,104 q30,-46 60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0" />
+        </g>
+        <g>
+          <path stroke-width="1" d="M-180,136 q30,-28 60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0" />
+        </g>
+        <g>
+          <path stroke-width="2.2" d="M-180,72 q30,-62 60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0" />
+        </g>
+      </svg>
+    </div>
+
+    <div class="hero__masthead rise">
+      <div class="hero__seal">
+        <img src="{{ '/assets/img/cmu-logo.png' | relative_url }}" alt="Carnegie Mellon University">
+      </div>
+
+      <div class="hero__text">
+        <div class="hero__kicker">
+          <span class="chip chip--accent">{{ site.course_number }} &middot; {{ site.course_term }}</span>
+          <span class="chip chip--tbd">Schedule TBA</span>
+        </div>
+        <h1 class="post-title"><b>M</b>achine <b>L</b>earning for <b>S</b>ignal <b>P</b>rocessing</h1>
+        <h2 class="post-description">Carnegie Mellon University &middot; School of Computer Science</h2>
+      </div>
+    </div>
   </header>
 
   <article class="post-content clearfix">
-    <p>Signal Processing is the science that deals with the extraction of information from signals of various kinds. This has two distinct aspects -- characterization and categorization. Traditionally, signal characterization has been performed with mathematically-driven transforms, while categorization and classification are achieved using statistical tools. Machine Learning aims to design algorithms that learn about the state of the world directly from data. A increasingly popular trend has been to develop and apply machine learning techniques to both aspects of signal processing, often blurring the distinction between the two. This course discusses the use of machine learning techniques to process signals. We cover a variety of topics, from data driven approaches for characterization of signals such as audio including speech, images and video, and machine learning methods for a variety of speech and image processing problems.</p>
-    <hr />
 
-    <ul>
-      <li><strong>Time:</strong> 2-3.20 on tuesdays/thursdays</li>
-      <li><strong>Location:</strong> BH-A53 </li>
-      <li><strong>Zoom:</strong> <a href="https://cmu.zoom.us/j/97661004908" target="_blank">meeting link</a> </li>
-      <li><strong>Discussion and Q&A:</strong> <a href="https://piazza.com/class/mermbw88t0k3ok" target="_blank">Piazza</a></li>
-      <li><strong>Assignment submissions:</strong> <a href="https://canvas.cmu.edu/courses/47337" target="_blank">Canvas</a> (for registered students only)</li>
-      <li><strong>Contact:</strong> Students should ask all course-related questions on <a href="https://piazza.com/class/lvmxcb90l234iq/" target="_blank">Piazza</a>, where you will also find announcements.</li>
-    </ul>
+    <p class="lede rise rise-2">Signal processing is the science of extracting information from signals of every
+      kind, and it has two distinct aspects: characterization and categorization. Traditionally, signal
+      characterization has been performed with mathematically-driven transforms, while categorization and
+      classification are achieved using statistical tools. Machine learning aims to design algorithms that learn
+      about the state of the world directly from data. An increasingly popular trend has been to develop and apply
+      machine learning techniques to both aspects of signal processing, often blurring the distinction between the
+      two. This course discusses the use of machine learning to process signals &mdash; from data-driven
+      approaches for characterizing audio, speech, images and video, to machine learning methods for a variety of
+      speech and image processing problems.</p>
 
-    <hr />
+    <div class="link-row rise rise-3">
+      <a class="btn btn--primary" href="{{ site.baseurl }}/schedule/">Schedule</a>
+      <a class="btn" href="{{ site.baseurl }}/syllabus/">Syllabus</a>
+    </div>
+
+    <hr class="signal-rule" />
+
+    <!-- Logistics: rooms, meeting times and course spaces are TBD until the
+         university timetable is published. Each card carries a commented-out
+         value ready to be restored. -->
+    <section class="section" id="logistics">
+      <div class="section__head">
+        <h2>Course logistics</h2>
+        <p class="section__note">Details are confirmed shortly before the semester begins.</p>
+      </div>
+
+      <ul class="info-grid">
+        <li class="info-card">
+          <span class="info-card__label">Meetings</span>
+          <span class="info-card__value"><span class="chip chip--tbd">TBD</span></span>
+          <span class="info-card__hint">Days and times are set when the university timetable is published.</span>
+          {% comment %} TODO: restore when Fall 2026 meeting times are announced.
+          <span class="info-card__value">Tuesdays &amp; Thursdays, 2:00&ndash;3:20 PM</span>
+          {% endcomment %}
+        </li>
+
+        <li class="info-card">
+          <span class="info-card__label">Location</span>
+          <span class="info-card__value"><span class="chip chip--tbd">TBD</span></span>
+          <span class="info-card__hint">Room assignment pending.</span>
+          {% comment %} TODO: restore when the Fall 2026 room is assigned.
+          <span class="info-card__value">BH-A53</span>
+          {% endcomment %}
+        </li>
+
+        <li class="info-card">
+          <span class="info-card__label">Remote attendance</span>
+          <span class="info-card__value"><span class="chip chip--tbd">TBD</span></span>
+          <span class="info-card__hint">A Zoom link will be posted here and on Canvas.</span>
+          {% comment %} TODO: restore with the Fall 2026 Zoom meeting.
+          <span class="info-card__value"><a href="https://cmu.zoom.us/j/97661004908" target="_blank">Zoom meeting link</a></span>
+          {% endcomment %}
+        </li>
+
+        <li class="info-card">
+          <span class="info-card__label">Discussion &amp; Q&amp;A</span>
+          <span class="info-card__value">Piazza <span class="chip chip--tbd">TBD</span></span>
+          <span class="info-card__hint">The Fall 2026 Piazza space will be linked before the first lecture.</span>
+          {% comment %} TODO: restore with the Fall 2026 Piazza space.
+          <span class="info-card__value"><a href="https://piazza.com/class/mermbw88t0k3ok" target="_blank">Piazza</a></span>
+          {% endcomment %}
+        </li>
+
+        <li class="info-card">
+          <span class="info-card__label">Assignment submissions</span>
+          <span class="info-card__value">Canvas <span class="chip chip--tbd">TBD</span></span>
+          <span class="info-card__hint">For registered students only, once the course site opens.</span>
+          {% comment %} TODO: restore with the Fall 2026 Canvas course.
+          <span class="info-card__value"><a href="https://canvas.cmu.edu/courses/47337" target="_blank">Canvas</a></span>
+          {% endcomment %}
+        </li>
+
+        <li class="info-card">
+          <span class="info-card__label">Contact</span>
+          <span class="info-card__value">Course questions go to Piazza</span>
+          <span class="info-card__hint">Until it opens, email the instructor at
+            <a href="mailto:bhiksha@cs.cmu.edu">bhiksha@cs.cmu.edu</a>. Announcements are posted here and on Piazza.</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Teaching staff: only confirmed staff are listed for Fall 2026. -->
+    <section class="section" id="staff">
+      <div class="section__head">
+        <h2>Teaching staff</h2>
+        <p class="section__note">Additional teaching assistants will be added as they are confirmed.</p>
+      </div>
+
+      <ul class="staff-grid">
+        <li class="staff-card">
+          <div class="staff-card__portrait">
+            <img src="{{ '/assets/img/bhiksha2-modified.png' | relative_url }}" alt="Bhiksha Raj">
+          </div>
+          <div class="staff-card__body">
+            <span class="staff-card__role">Instructor</span>
+            <span class="staff-card__name"><a href="https://engineering.cmu.edu/directory/bios/ramakrishnan-bhiksha-raj.html" target="_blank">Bhiksha Raj</a></span>
+            <span class="staff-card__contact"><a href="mailto:bhiksha@cs.cmu.edu">bhiksha@cs.cmu.edu</a></span>
+          </div>
+        </li>
+
+        <li class="staff-card">
+          <div class="staff-card__portrait">
+            <img src="{{ '/assets/img/Scotch.jpeg' | relative_url }}" alt="Siddhartha Vanjari">
+          </div>
+          <div class="staff-card__body">
+            <span class="staff-card__role">Teaching assistant</span>
+            <span class="staff-card__name"><a href="https://www.linkedin.com/in/siddhartha-vanjari/" target="_blank">Siddhartha Vanjari</a></span>
+            <span class="staff-card__contact"><a href="mailto:svanjari@andrew.cmu.edu">svanjari@andrew.cmu.edu</a></span>
+          </div>
+        </li>
+
+        {% comment %} TODO: restore / replace with the confirmed Fall 2026 teaching assistants.
+        <li class="staff-card">
+          <div class="staff-card__portrait">
+            <img src="{{ '/assets/img/Tianyun.jpg' | relative_url }}" alt="Tianyun Zhang">
+          </div>
+          <div class="staff-card__body">
+            <span class="staff-card__role">Teaching assistant</span>
+            <span class="staff-card__name"><a href="https://tianyun-zhang.github.io/" target="_blank">Tianyun Zhang</a></span>
+            <span class="staff-card__contact"><a href="mailto:tianyun2@andrew.cmu.edu">tianyun2@andrew.cmu.edu</a></span>
+          </div>
+        </li>
+        <li class="staff-card">
+          <div class="staff-card__portrait">
+            <img src="{{ '/assets/img/Lucy.png' | relative_url }}" alt="Zhuoran Lucy Sun">
+          </div>
+          <div class="staff-card__body">
+            <span class="staff-card__role">Teaching assistant</span>
+            <span class="staff-card__name"><a href="https://lucys-99.github.io/" target="_blank">Zhuoran Lucy Sun</a></span>
+            <span class="staff-card__contact"><a href="mailto:lucysun2@andrew.cmu.edu">lucysun2@andrew.cmu.edu</a></span>
+          </div>
+        </li>
+        <li class="staff-card">
+          <div class="staff-card__portrait">
+            <img src="{{ '/assets/img/Gabby.png' | relative_url }}" alt="Gabrial Zencha Ashungafac">
+          </div>
+          <div class="staff-card__body">
+            <span class="staff-card__role">Teaching assistant</span>
+            <span class="staff-card__name"><a href="https://www.linkedin.com/in/gabrial-zencha/" target="_blank">Gabrial Zencha Ashungafac</a></span>
+            <span class="staff-card__contact"><a href="mailto:gzenchaa@andrew.cmu.edu">gzenchaa@andrew.cmu.edu</a></span>
+          </div>
+        </li>
+        <li class="staff-card">
+          <div class="staff-card__portrait">
+            <img src="{{ '/assets/img/Ayisha.jpg' | relative_url }}" alt="Ayisha Nuhu">
+          </div>
+          <div class="staff-card__body">
+            <span class="staff-card__role">Teaching assistant</span>
+            <span class="staff-card__name"><a href="https://www.linkedin.com/in/ayisha-nuhu/" target="_blank">Ayisha Nuhu</a></span>
+            <span class="staff-card__contact"><a href="mailto:anuhu@andrew.cmu.edu">anuhu@andrew.cmu.edu</a></span>
+          </div>
+        </li>
+        {% endcomment %}
+      </ul>
+    </section>
+
+    <!-- Office hours: not scheduled yet. -->
+    <section class="section" id="office-hours">
+      <div class="section__head">
+        <h2>Office hours</h2>
+        <p class="section__note">Published in the first week of classes.</p>
+      </div>
+
+      <div class="notice notice--tbd">
+        <span class="notice__bar" aria-hidden="true"></span>
+        <span class="chip chip--tbd">TBD</span>
+        <h3>Office hours are not scheduled yet</h3>
+        <p>Times, locations and Zoom links will be posted here once the teaching staff and the class timetable are
+          finalized for {{ site.course_term }}. Until then, please email the instructor for anything urgent.</p>
+      </div>
+
+      {% comment %} TODO: restore when Fall 2026 office hours are set (Fall 2025 schedule kept for reference).
+      <div class="office-hours-grid">
+        <div class="oh-card">
+          <div class="oh-day">Sunday</div>
+          <div class="oh-time">09:00-10:00 AM EST</div>
+          <div class="oh-staff">
+            <a href="https://tianyun-zhang.github.io/" target="_blank">Tianyun</a>,
+            <a href="https://lucys-99.github.io/" target="_blank">Lucy</a>,
+            <a href="https://www.linkedin.com/in/siddhartha-vanjari/" target="_blank">Sid</a>
+          </div>
+          <div class="oh-location">
+            <a href="https://cmu.zoom.us/j/98946060283?pwd=qP1Pywjnf072QRmwcV5i4gGa2P0coa.1" class="zoom-link" target="_blank">
+              <i class="fas fa-video"></i> Zoom
+            </a>
+          </div>
+        </div>
+
+        <div class="oh-card">
+          <div class="oh-day">Tuesday</div>
+          <div class="oh-time">12:30-01:30 PM EST</div>
+          <div class="oh-staff">
+            <a href="https://www.linkedin.com/in/siddhartha-vanjari/" target="_blank">Sid</a>,
+            <a href="https://www.linkedin.com/in/ayisha-nuhu/" target="_blank">Ayisha</a>
+          </div>
+          <div class="oh-location">
+            <a href="https://cmu.zoom.us/j/98946060283?pwd=qP1Pywjnf072QRmwcV5i4gGa2P0coa.1" class="zoom-link" target="_blank">
+              <i class="fas fa-map-marker-alt"></i> GHC-6705 &amp; Zoom
+            </a>
+          </div>
+        </div>
+
+        <div class="oh-card">
+          <div class="oh-day">Thursday</div>
+          <div class="oh-time">12:30-1:30 PM EST</div>
+          <div class="oh-staff">
+            <a href="https://tianyun-zhang.github.io/" target="_blank">Tianyun</a>,
+            <a href="https://lucys-99.github.io/" target="_blank">Lucy</a>,
+            <a href="https://www.linkedin.com/in/gabrial-zencha/" target="_blank">Gabby</a>
+          </div>
+          <div class="oh-location">
+            <a href="https://cmu.zoom.us/j/98946060283?pwd=qP1Pywjnf072QRmwcV5i4gGa2P0coa.1" class="zoom-link" target="_blank">
+              <i class="fas fa-map-marker-alt"></i> GHC-6705 &amp; Zoom
+            </a>
+          </div>
+        </div>
+      </div>
+      {% endcomment %}
+    </section>
+
+    <!-- Announcements: previous-term entries are disabled so no stale dates show. -->
+    <section class="section news" id="announcements">
+      <h2>Announcements</h2>
+
+      <div class="notice">
+        <span class="notice__bar" aria-hidden="true"></span>
+        <p>No announcements yet. Course announcements for {{ site.course_term }} will appear here and on Piazza once
+          the semester gets underway.</p>
+      </div>
+
+      {% comment %} TODO: restore this table and add Fall 2026 entries when the term starts.
+      <table>
+        <tr>
+          <td class="date">Aug 26, 2025</td>
+          <td class="announcement">Welcome to 11-755, Machine Learning for Signal Processing, Fall 2025!</td>
+        </tr>
+        <tr>
+          <td class="date">Sept 8, 2025</td>
+          <td class="announcement">We will be holding regular office hours starting this week. Please check the "Office Hours" section above for details.</td>
+        </tr>
+      </table>
+      {% endcomment %}
+    </section>
 
   </article>
 
-  <!-- Staff  -->
-  <div class="instructors clearfix">
-  
-  <div class="instructor-profile-three-col">
-    <a href="https://engineering.cmu.edu/directory/bios/ramakrishnan-bhiksha-raj.html" target="_blank"><img src="assets/img/bhiksha2-modified.png" /></a>
-    <ul class="instructor-info">
-      <li><span>Instructor:</span> <a href="https://engineering.cmu.edu/directory/bios/ramakrishnan-bhiksha-raj.html" target="_blank">Bhiksha Raj</a></li>
-      <li><span>Email:</span> <a href="mailto:bhiksha@cs.cmu.edu" target="_blank">bhiksha</a></li>
-    </ul>
-  </div>
-
-  <div class="instructor-profile-three-col">
-    
-    <a href="https://www.linkedin.com/in/siddhartha-vanjari/" target="_blank"><img src="assets/img/Scotch.jpeg" /></a>
-    <ul class="instructor-info">
-      <li><span>TA:</span> <a href="https://www.linkedin.com/in/siddhartha-vanjari/" target="_blank">Siddhartha Vanjari</a></li>
-      <li><span>Email:</span> <a href="mailto:svanjari@andrew.cmu.edu" target="_blank">svanjari</a></li>
-    </ul>
-  </div>
-
-  <div class="instructor-profile-three-col">
-    
-    <a href="https://www.linkedin.com/in/tianyun-zhang/" target="_blank"><img src="assets/img/Tianyun.jpg" /></a>
-    <ul class="instructor-info">
-      <li><span>TA:</span> <a href="https://tianyun-zhang.github.io/" target="_blank">Tianyun Zhang</a></li>
-      <li><span>Email:</span> <a href="mailto:tianyun2@andrew.cmu.edu" target="_blank">tianyun2</a></li>
-    </ul>
-  </div>
-
-  </div>
-
-  <br><br>
-
-  <div class="instructors clearfix">
-  
-  <div class="instructor-profile-three-col">
-    
-    <a href="https://lucys-99.github.io/" target="_blank"><img src="assets/img/Lucy.png" /></a>
-    <ul class="instructor-info">
-      <li><span>TA:</span> <a href="https://lucys-99.github.io/" target="_blank">Zhuoran Lucy Sun</a></li>
-      <li><span>Email:</span> <a href="mailto:lucysun2@andrew.cmu.edu" target="_blank">lucysun2</a></li>
-    </ul>
-  </div>
-
-  <div class="instructor-profile-three-col">
-    <a href="https://www.linkedin.com/in/gabrial-zencha/" target="_blank"><img src="assets/img/Gabby.png" /></a>
-    <ul class="instructor-info">
-      <li><span>TA:</span> <a href="https://www.linkedin.com/in/gabrial-zencha/" target="_blank">Gabrial Zencha Ashungafac</a></li>
-      <li><span>Email:</span> <a href="mailto:gzenchaa@andrew.cmu.edu" target="_blank">gzenchaa</a></li>
-    </ul>
-  </div>
-
-  <div class="instructor-profile-three-col">
-    <a href="https://www.linkedin.com/in/ayisha-nuhu/" target="_blank"><img src="assets/img/Ayisha.jpg" /></a>
-    <ul class="instructor-info">
-      <li><span>TA:</span> <a href="https://www.linkedin.com/in/ayisha-nuhu/" target="_blank">Ayisha Nuhu</a></li>
-      <li><span>Email:</span> <a href="mailto:anuhu@andrew.cmu.edu" target="_blank">anuhu</a></li>
-    </ul>
-  </div>
-
-  </div>
-
-    <br>
-
-
-
- <div class="news">
-    <h2>Office Hours</h2>
-  
-  <div class="office-hours-grid">
-    <div class="oh-card">
-      <div class="oh-day">Sunday</div>
-      <div class="oh-time">09:00-10:00 AM EST</div>
-      <div class="oh-staff">
-        <a href="https://tianyun-zhang.github.io/" target="_blank">Tianyun</a>,
-        <a href="https://lucys-99.github.io/" target="_blank">Lucy</a>,
-        <a href="https://www.linkedin.com/in/siddhartha-vanjari/" target="_blank">Sid</a>
-      </div>
-      <div class="oh-location">
-        <a href="https://cmu.zoom.us/j/98946060283?pwd=qP1Pywjnf072QRmwcV5i4gGa2P0coa.1" class="zoom-link" target="_blank">
-          <i class="fas fa-video"></i> Zoom
-        </a>
-      </div>
-    </div>
-
-    <div class="oh-card">
-      <div class="oh-day">Tuesday</div>
-      <div class="oh-time">12:30-01:30 PM EST</div>
-      <div class="oh-staff">
-        <a href="https://www.linkedin.com/in/siddhartha-vanjari/" target="_blank">Sid</a>,
-        <a href="https://www.linkedin.com/in/ayisha-nuhu/" target="_blank">Ayisha</a>
-      </div>
-      <div class="oh-location">
-        <span class="Hybrid">
-          <a href="https://cmu.zoom.us/j/98946060283?pwd=qP1Pywjnf072QRmwcV5i4gGa2P0coa.1" class="zoom-link" target="_blank">
-          <i class="fas fa-map-marker-alt"></i>GHC-6705 & Zoom</a>
-        </span>
-      </div>
-    </div>
-
-    <div class="oh-card">
-      <div class="oh-day">Thursday</div>
-      <div class="oh-time">12:30-1:30 PM EST</div>
-      <div class="oh-staff">
-        <a href="https://tianyun-zhang.github.io/" target="_blank">Tianyun</a>,
-        <a href="https://lucys-99.github.io/" target="_blank">Lucy</a>,
-        <a href="https://www.linkedin.com/in/gabrial-zencha/" target="_blank">Gabby</a>
-      </div>
-      <div class="oh-location">
-        <a href="https://cmu.zoom.us/j/98946060283?pwd=qP1Pywjnf072QRmwcV5i4gGa2P0coa.1" class="zoom-link" target="_blank">
-          <i class="fas fa-map-marker-alt"></i> GHC-6705 & Zoom
-        </a>
-      </div>
-    </div>
-  </div>
 </div>
-
-<!-- Add this CSS to your stylesheet -->
-<style>
-.office-hours-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  margin: 20px 0;
-}
-
-.oh-card {
-  background: #fff;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  transition: transform 0.2s;
-}
-
-.oh-card:hover {
-  transform: translateY(-5px);
-}
-
-.oh-day {
-  font-size: 1.2em;
-  font-weight: bold;
-  color: #2c3e50;
-  margin-bottom: 8px;
-}
-
-.oh-time {
-  color: #7f8c8d;
-  margin-bottom: 12px;
-}
-
-.oh-staff {
-  margin-bottom: 12px;
-}
-
-.oh-staff a {
-  color: #3498db;
-  text-decoration: none;
-}
-
-.oh-staff a:hover {
-  text-decoration: underline;
-}
-
-.oh-location {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.zoom-link {
-  color: #2ecc71;
-  text-decoration: none;
-}
-
-.in-person {
-  color: #e74c3c;
-}
-
-.fas {
-  margin-right: 5px;
-}
-</style>
-  
-  <!-- Announcements  -->
-  <div class="news">
-  <h2>Announcements</h2>
-  
-    <table>
-    
-      <tr>
-        <td class="date">Aug 26, 2025</td>
-        <td class="announcement">
-          
-            Welcome to 11-755, Machine Learning for Signal Processing, Fall 2025!
-
-          
-        </td>
-      </tr>
-      <tr>
-        <td class="date">Sept 8, 2025</td>
-        <td class="announcement">
-          
-            We will be holding regular office hours starting this week. Please check the "Office Hours" section above for details.
-
-          
-        </td>
-      </tr>
-    
-    </table>
-  
-</div>
-
-
-</div>
-
-      </div>
-    </div>
-
-  
-
-
-    <!-- Load jQuery -->
-<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
-
-<!-- Load Common JS -->
-<script src="assets/js/common.js"></script>
-
-
-<!-- Load KaTeX -->
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.1/katex.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.1/katex.min.js"></script>
-<script src="assets/js/katex.js"></script>
-
-
-
-<!-- Load Anchor JS -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
-<script>
-  anchors.options.visible = 'hover';
-  anchors.add('article h2, article h3, article h4, article h5, article h6');
-</script>
-
-
-
-<!-- Adjust LaTeX JS -->
-<script src="assets/js/latex.js"></script>
-
-
-<!-- Include custom icon fonts -->
-<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-<link rel="stylesheet" href="assets/css/academicons.min.css">
-
-<!-- Google Analytics -->
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-131744305-1', 'auto');
-ga('send', 'pageview');
-</script>
-
-

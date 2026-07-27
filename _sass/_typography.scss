@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    color: $text-color;
+    color: var(--ink);
 }
 
 abbr {
@@ -12,28 +12,36 @@ abbr {
 }
 
 p {
-    color: #333;
-    // line-height: 1.5;
+    color: var(--ink-2);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 400;
+    color: var(--ink);
+    font-weight: 600;
+    letter-spacing: -0.012em;
 }
 
-@media
-(-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi) {
-    body {
-        // font-weight: 100;
-    }
-    h1, h2, h3, h4, h5, h6 {
-        // font-weight: 100;
-    }
+strong, b {
+    font-weight: 600;
+    color: var(--ink);
+}
+
+ul, ol {
+    color: var(--ink-2);
+}
+
+code, kbd, samp {
+    font-family: var(--font-mono);
+    font-size: 0.86em;
+    padding: 0.15em 0.4em;
+    border-radius: 5px;
+    background: var(--surface-sunken);
+    color: var(--ink);
 }
 
 small,
 .small {
-    font-size: 0.707rem;
+    font-size: 0.78rem;
 }
 
 sup {

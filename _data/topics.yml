@@ -1,0 +1,57 @@
+# -----------------------------------------------------------------------------
+# Fall 2026 topic outline
+#
+# Deliberately date-free and link-free: it is the "what the course covers"
+# reference that the schedule page shows while the calendar is still TBA.
+# The dated lecture-by-lecture table lives in _data/lectures_fall2026.yml (see
+# the commented-out block in _pages/schedule.md) and the previous edition is
+# archived in _data/lectures_fall2025.yml.
+#
+# Topics are grouped by theme and are subject to change based on student
+# interests and course discussions.
+# -----------------------------------------------------------------------------
+
+- module: Foundations
+  topics:
+    - Introduction to machine learning for signal processing
+    - Linear algebra for signals, part 1
+    - Linear algebra for signals, part 2
+    - Optimization
+    - Probability and information theory
+
+- module: Representations
+  topics:
+    - Deterministic representations
+    - Data-driven representations
+    - Non-negative matrix factorization
+    - Sparse and overcomplete representations
+    - Dictionary learning
+
+- module: Learning from signals
+  topics:
+    - Boosting and face detection
+    - Clustering
+    - Regression and prediction
+    - Linear classifiers
+
+- module: Latent variable models
+  topics:
+    - Independent component analysis
+    - Canonical correlation analysis
+    - Expectation maximization, part 1
+    - Expectation maximization, part 2
+    - Factor analysis
+    - Maximum entropy modeling
+
+- module: Sequences and state-space models
+  topics:
+    - Hidden Markov models, part 1
+    - Hidden Markov models, part 2
+    - Kalman filtering and tracking
+    - Extended and non-linear filtering
+
+- module: Applications and special topics
+  topics:
+    - Survival analysis
+    - Predicting rare events
+    - Course project presentations

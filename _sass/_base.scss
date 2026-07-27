@@ -6,6 +6,10 @@ html, body {
   -webkit-text-size-adjust: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 img {
   max-width: none;
 }
@@ -16,25 +20,85 @@ em img {
 }
 
 body {
-          box-sizing: border-box;
-     -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  position: relative;
+  background-color: var(--bg-solid);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-feature-settings: "kern" 1, "liga" 1;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+// -----------------------------------------------------------------------------
+// Atmosphere: three soft light sources plus a faint engineering grid, pinned
+// behind every page so scrolling never reveals a flat edge.
+// -----------------------------------------------------------------------------
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  background-image:
+    radial-gradient(1100px 620px at 8% -12%, var(--glow-1), transparent 62%),
+    radial-gradient(920px 520px at 96% 2%, var(--glow-2), transparent 64%),
+    radial-gradient(760px 760px at 48% 112%, var(--glow-3), transparent 60%);
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.85;
+  background-image:
+    linear-gradient(to right, var(--grid-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px);
+  background-size: 72px 72px, 72px 72px;
+  -webkit-mask-image: radial-gradient(1200px 700px at 50% 0%, #000 0%, transparent 78%);
+  mask-image: radial-gradient(1200px 700px at 50% 0%, #000 0%, transparent 78%);
 }
 
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$horizontal-spacing-unit}));
-    max-width:         calc(#{$content-width} - (#{$horizontal-spacing-unit}));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $horizontal-spacing-unit / 2;
-    padding-left: $horizontal-spacing-unit / 2;
-    @extend .clearfix;
+  max-width: $content-width;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $horizontal-spacing-unit * 0.75;
+  padding-left: $horizontal-spacing-unit * 0.75;
+  @extend .clearfix;
 
-    @media screen and (min-width: $on-large) {
-        max-width: -webkit-calc(#{$content-width} - (#{$horizontal-spacing-unit} * 2));
-        max-width:         calc(#{$content-width} - (#{$horizontal-spacing-unit} * 2));
-        padding-right: $horizontal-spacing-unit;
-        padding-left: $horizontal-spacing-unit;
+  @media screen and (min-width: $on-large) {
+    padding-right: $horizontal-spacing-unit * 1.5;
+    padding-left: $horizontal-spacing-unit * 1.5;
+  }
+}
+
+::selection {
+  background: var(--accent-wash);
+  color: var(--ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-bright);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
   }
 }

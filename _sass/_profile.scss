@@ -1,19 +1,122 @@
+// -----------------------------------------------------------------------------
+// Course masthead
+// -----------------------------------------------------------------------------
 .logo {
     float: left;
     margin-right: 20px;
     padding-bottom: 15px;
-    width: 120px;
+    width: 92px;
 }
 
 .about {
     .post-title {
-        padding-top: 20px;
-    }
-    .post-description {
-        font-size: 20px;
+        padding-top: 4px;
     }
 }
 
+// -----------------------------------------------------------------------------
+// Teaching staff
+// -----------------------------------------------------------------------------
+.staff-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.staff-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.15rem 1.25rem;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.35s var(--ease), box-shadow 0.35s var(--ease), border-color 0.35s var(--ease);
+
+    &:hover {
+        transform: translateY(-3px);
+        border-color: var(--accent-wash);
+        box-shadow: var(--shadow-md);
+    }
+}
+
+.staff-card__portrait {
+    position: relative;
+    flex: 0 0 auto;
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    padding: 3px;
+    background-image: linear-gradient(140deg, var(--accent-bright), var(--accent) 55%, var(--crimson));
+
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+        background: var(--surface);
+    }
+}
+
+.staff-card__body {
+    min-width: 0;
+}
+
+.staff-card__role {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 0.28rem;
+}
+
+.staff-card__name {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 1.14rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 1.25;
+    color: var(--ink);
+
+    a {
+        color: inherit;
+
+        &:hover {
+            color: var(--accent);
+        }
+    }
+}
+
+.staff-card__contact {
+    display: inline-block;
+    margin-top: 0.3rem;
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--ink-3);
+
+    a {
+        color: var(--ink-3);
+        border-bottom: 1px solid var(--line-strong);
+
+        &:hover {
+            color: var(--accent);
+            border-color: var(--accent);
+        }
+    }
+}
+
+// -----------------------------------------------------------------------------
+// Legacy staff markup — still used by the archived /fall2024/ snapshot.
+// -----------------------------------------------------------------------------
 .instructors {
     padding: 0 0 0 1%;
 }
@@ -31,9 +134,9 @@
         border-radius: 50%;
         float: left;
         object-fit: cover;
-        height: 100px;
-        width: 100px;
-        margin-right: 10px;
+        height: 92px;
+        width: 92px;
+        margin-right: 12px;
     }
 
     ul.instructor-info {
@@ -44,55 +147,86 @@
         width: 65%;
         width: -webkit-calc(100% - 130px);
         width: calc(100% - 130px);
-        min-width: 210px;
+        min-width: 200px;
+        font-size: 0.9rem;
 
         a {
-            color: $theme-color;
+            color: var(--accent);
+
             &:hover {
                 text-decoration: underline;
             }
         }
 
         span {
-            font-weight: 400;
+            font-family: var(--font-mono);
+            font-size: 0.66rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--ink-3);
         }
     }
 }
+
 .instructor-profile-two-col {
     @extend %instructor-profile;
     width: 50%;
 }
+
 .instructor-profile-three-col {
     @extend %instructor-profile;
     width: 33%;
 }
+
 .instructor-profile-four-col {
     @extend %instructor-profile;
     width: 25%;
 }
 
+// -----------------------------------------------------------------------------
+// Announcements
+// -----------------------------------------------------------------------------
 .news {
-    border-top: 1px solid $grey-color-light;
-    margin-top: 30px;
-    padding-top: 20px;
+    margin-top: 2.5rem;
 
     h2 {
-        font-weight: bold;
+        font-family: var(--font-display);
+        font-weight: 600;
         margin-top: 0;
-        margin-bottom: 10px;
+        margin-bottom: 0.9rem;
     }
+
     table {
         border-collapse: collapse;
         width: 100%;
 
-        .date { width: 19%; }
-        .announcement { width: 81%; }
+        .date {
+            width: 20%;
+            font-family: var(--font-mono);
+            font-size: 0.72rem;
+            letter-spacing: 0.04em;
+            color: var(--accent);
+            white-space: nowrap;
+        }
 
-        tr { text-align: left; }
+        .announcement {
+            width: 80%;
+            color: var(--ink-2);
+        }
+
+        tr {
+            text-align: left;
+        }
+
         td {
-            padding: 6px 0;
+            padding: 0.7rem 0.9rem 0.7rem 0;
             vertical-align: top;
             border: none;
+            border-top: 1px solid var(--line);
+        }
+
+        tr:first-child td {
+            border-top: 0;
         }
     }
 }

@@ -1,3 +1,15 @@
+# =============================================================================
+# ARCHIVE — Fall 2025 lecture schedule (formerly _data/lectures_2023.yml)
+#
+# Nothing on the live site reads this file: the Fall 2026 schedule page shows a
+# "TBA" notice plus the date-free outline in _data/topics.yml, so none of the
+# slide or homework links below are rendered anywhere.
+#
+# To rebuild the calendar for a new term, copy this file to
+# _data/lectures_fall2026.yml, update the dates/links, and uncomment the table
+# block at the bottom of _pages/schedule.md.
+# =============================================================================
+
 - date: 8/26
   title: >
     <strong>Introduction</strong>

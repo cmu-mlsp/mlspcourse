@@ -1,0 +1,181 @@
+// =============================================================================
+// Design tokens — Fall 2026 refresh
+//
+// Palette idea: "spectrogram on paper". A cool, deep ink over a luminous
+// teal/cyan signal accent, with CMU crimson reserved for small institutional
+// marks. Everything themable through custom properties so `body.dark-mode`
+// only has to restate the values, never the rules.
+// =============================================================================
+
+:root {
+  // Typography
+  --font-display: 'Fraunces', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+  --font-body: 'Manrope', 'Avenir Next', 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+
+  // Surfaces
+  --bg: #f2f6f9;
+  --bg-solid: #f2f6f9;
+  --surface: #ffffff;
+  --surface-veil: rgba(255, 255, 255, 0.74);
+  --surface-sunken: rgba(16, 29, 44, 0.035);
+
+  // Ink
+  --ink: #0f1d2c;
+  --ink-2: #45596d;
+  --ink-3: #74889c;
+
+  // Lines
+  --line: rgba(15, 29, 44, 0.11);
+  --line-strong: rgba(15, 29, 44, 0.2);
+
+  // Accents
+  --accent: #0c7a87;
+  --accent-bright: #17a2b0;
+  --accent-deep: #075a64;
+  --accent-wash: rgba(23, 162, 176, 0.1);
+  --crimson: #c41230;
+  --amber: #a86a12;
+  --amber-wash: rgba(196, 138, 32, 0.13);
+
+  // Atmosphere (three soft light sources behind the page)
+  --glow-1: rgba(23, 162, 176, 0.2);
+  --glow-2: rgba(196, 18, 48, 0.09);
+  --glow-3: rgba(12, 122, 135, 0.13);
+  --grid-line: rgba(15, 29, 44, 0.045);
+  --wave-ink: rgba(12, 122, 135, 0.16);
+
+  // Elevation
+  --shadow-sm: 0 1px 2px rgba(15, 29, 44, 0.05);
+  --shadow-md: 0 1px 2px rgba(15, 29, 44, 0.04), 0 10px 26px -14px rgba(15, 29, 44, 0.28);
+  --shadow-lg: 0 2px 4px rgba(15, 29, 44, 0.05), 0 26px 50px -24px rgba(15, 29, 44, 0.35);
+
+  // Geometry
+  --radius-sm: 8px;
+  --radius: 14px;
+  --radius-lg: 22px;
+  --ease: cubic-bezier(0.22, 0.75, 0.24, 1);
+}
+
+body.dark-mode {
+  --bg: #08101a;
+  --bg-solid: #08101a;
+  --surface: #101c28;
+  --surface-veil: rgba(16, 28, 40, 0.72);
+  --surface-sunken: rgba(232, 240, 247, 0.05);
+
+  --ink: #e7eff7;
+  --ink-2: #a6bbcd;
+  --ink-3: #7089a1;
+
+  --line: rgba(232, 240, 247, 0.13);
+  --line-strong: rgba(232, 240, 247, 0.24);
+
+  --accent: #38c9d4;
+  --accent-bright: #5ee0e9;
+  --accent-deep: #9fe9f0;
+  --accent-wash: rgba(56, 201, 212, 0.14);
+  --crimson: #ff6a83;
+  --amber: #edb75f;
+  --amber-wash: rgba(237, 183, 95, 0.14);
+
+  --glow-1: rgba(23, 162, 176, 0.22);
+  --glow-2: rgba(196, 18, 48, 0.16);
+  --glow-3: rgba(56, 201, 212, 0.1);
+  --grid-line: rgba(232, 240, 247, 0.045);
+  --wave-ink: rgba(56, 201, 212, 0.2);
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 1px 2px rgba(0, 0, 0, 0.35), 0 12px 28px -14px rgba(0, 0, 0, 0.7);
+  --shadow-lg: 0 2px 6px rgba(0, 0, 0, 0.4), 0 30px 60px -26px rgba(0, 0, 0, 0.8);
+}
+
+// -----------------------------------------------------------------------------
+// Shared primitives
+// -----------------------------------------------------------------------------
+
+// Small monospaced label — used for section eyebrows, dates and metadata.
+.eyebrow {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.6rem;
+}
+
+// Pill used for statuses: TBD / TBA / new.
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.3em 0.7em;
+  border-radius: 999px;
+  border: 1px solid var(--line-strong);
+  color: var(--ink-2);
+  background: var(--surface-sunken);
+  white-space: nowrap;
+}
+
+.chip--tbd {
+  color: var(--amber);
+  border-color: var(--amber-wash);
+  background: var(--amber-wash);
+}
+
+.chip--accent {
+  color: var(--accent-deep);
+  border-color: var(--accent-wash);
+  background: var(--accent-wash);
+}
+
+// Hairline rule that carries the signal gradient.
+.signal-rule {
+  height: 2px;
+  border: 0;
+  margin: 2.6rem 0;
+  border-radius: 2px;
+  background-image: linear-gradient(90deg, var(--accent) 0%, var(--accent-bright) 28%, var(--crimson) 62%, transparent 100%);
+  opacity: 0.6;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: absolute;
+  left: 50%;
+  top: -100px;
+  transform: translateX(-50%);
+  z-index: 200;
+  padding: 0.7rem 1.1rem;
+  border-radius: 0 0 var(--radius) var(--radius);
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: top 0.2s var(--ease);
+
+  &:focus {
+    top: 0;
+    color: #fff;
+  }
+}

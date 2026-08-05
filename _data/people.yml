@@ -20,6 +20,13 @@
   email: "svanjari@andrew.cmu.edu"
   photo: "Scotch.jpeg"
 
+- name: Gabrial Zencha Ashungafac
+  role: TA
+  bio: ""
+  website: "https://www.linkedin.com/in/gabrial-zencha/"
+  email: "gzenchaa@andrew.cmu.edu"
+  photo: "Gabby.png"
+
 # TODO: restore / replace with the confirmed Fall 2026 teaching assistants.
 #
 # - name: Tianyun Zhang
@@ -35,13 +42,6 @@
 #   website: "https://lucys-99.github.io/"
 #   email: "lucysun2@andrew.cmu.edu"
 #   photo: "Lucy.png"
-#
-# - name: Gabrial Zencha Ashungafac
-#   role: TA
-#   bio: ""
-#   website: "https://www.linkedin.com/in/gabrial-zencha/"
-#   email: "gzenchaa@andrew.cmu.edu"
-#   photo: "Gabby.png"
 #
 # - name: Ayisha Nuhu
 #   role: TA

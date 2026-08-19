@@ -2,25 +2,95 @@
 layout: schedule
 permalink: /schedule/
 title: Schedule
-description: Fall 2026 calendar to be announced
+description: Fall 2026 lecture calendar
 nav: true
 ---
 
-<div class="notice notice--tbd">
-  <span class="notice__bar" aria-hidden="true"></span>
-  <span class="chip chip--tbd">TBA</span>
-  <h3>The {{ site.course_term }} schedule has not been released yet</h3>
-  <p>Lecture dates, slides, recordings and homework releases will be published here once the university timetable is
-    confirmed. The outline below shows the material we expect to cover; the order and the exact set of topics are
-    subject to change based on student interests and course discussions.</p>
-  <p>Lecture slides from previous editions are not linked while the calendar is being rebuilt. Registered students
-    will find everything on Canvas and Piazza once the term begins.</p>
+<p class="lede">Lecture dates, quizzes, homeworks and project checkpoints for
+{{ site.course_term }}. Meeting times and the room remain TBD until the university
+timetable is posted. The order of topics can still shift with class discussion.</p>
+
+<div class="schedule-legend" role="note">
+  <span class="schedule-legend__item"><span class="schedule-swatch schedule-swatch--holiday" aria-hidden="true"></span> Holiday / break</span>
+  <span class="schedule-legend__item"><span class="schedule-swatch schedule-swatch--noclass" aria-hidden="true"></span> No class</span>
+  <span class="schedule-legend__item"><span class="schedule-swatch schedule-swatch--exam" aria-hidden="true"></span> Exam week</span>
 </div>
+
+<div class="schedule-table-wrap">
+<table class="table table-hover schedule-table">
+  <caption class="sr-only">{{ site.course_term }} lecture calendar</caption>
+  <thead>
+    <tr>
+      <th scope="col">Date</th>
+      <th scope="col">Lecture</th>
+      <th scope="col">Topic</th>
+      <th scope="col">Quiz</th>
+      <th scope="col">Homework &amp; project</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in site.data.lectures_fall2026 %}
+    <tr class="schedule-row schedule-row--{{ item.type | default: 'lecture' }}">
+      <th scope="row" data-label="Date">{{ item.date | date: "%a, %b %d" }}</th>
+      <td data-label="Lecture">{% if item.lecture %}{{ item.lecture }}{% else %}&mdash;{% endif %}</td>
+      <td data-label="Topic">
+        {% if item.type == 'lecture' %}
+          <strong>{{ item.title }}</strong>
+        {% else %}
+          <span class="schedule-event">{{ item.title }}</span>
+        {% endif %}
+        {% comment %} TODO: restore slides, lecture files, and homework handouts when they are approved for the public site. Matching Fall 2025 Drive links stay as YAML comments in _data/lectures_fall2026.yml. Do not add those URLs to this table. {% endcomment %}
+      </td>
+      <td data-label="Quiz">{% if item.quiz %}Quiz {{ item.quiz }}{% else %}&mdash;{% endif %}</td>
+      <td data-label="Homework &amp; project">
+        {% if item.work and item.work.size > 0 %}
+          <ul class="schedule-work">
+            {% for task in item.work %}
+            <li>{{ task }}</li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          &mdash;
+        {% endif %}
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+
+<p class="schedule-footnote">Quizzes follow the numbering on the course calendar (there is no Quiz 13).
+HW 4 is released on Nov 17; its due date is not on the source calendar. Exam week is not listed.</p>
+
+<section class="section" id="coursework">
+  <div class="section__head">
+    <h2>Coursework dates</h2>
+    <p class="section__note">Weights are on the <a href="{{ site.baseurl }}/syllabus/">syllabus</a>. Handouts stay on Canvas, not this page.</p>
+  </div>
+
+  <ul class="info-grid">
+    <li class="info-card">
+      <span class="info-card__label">Homeworks</span>
+      <span class="info-card__value">Four assignments</span>
+      <span class="info-card__hint">HW 1: Sep 1–17. HW 2: Sep 22–Oct 8. HW 3: Oct 20–Nov 17. HW 4 released Nov 17 (due date TBD).</span>
+    </li>
+    <li class="info-card">
+      <span class="info-card__label">Quizzes</span>
+      <span class="info-card__value">Weekly (see table)</span>
+      <span class="info-card__hint">Short multiple-choice quizzes on the previous week's material. Numbered 1–12 and 14.</span>
+    </li>
+    <li class="info-card">
+      <span class="info-card__label">Group project</span>
+      <span class="info-card__value">Document, teams, proposal, checkpoint, report</span>
+      <span class="info-card__hint">Document out Sep 17. Teams Oct 6. Proposal Oct 29. Mid-term checkpoint Nov 17. Final report Dec 7. Presentation date TBD.</span>
+    </li>
+  </ul>
+</section>
 
 <section class="section" id="topics">
   <div class="section__head">
     <h2>What the course covers</h2>
-    <p class="section__note">Grouped by theme &mdash; not the lecture order.</p>
+    <p class="section__note">Grouped by theme &mdash; the table above is the dated order.</p>
   </div>
 
   <ul class="topic-modules">
@@ -37,114 +107,3 @@ nav: true
     {% endfor %}
   </ul>
 </section>
-
-<section class="section" id="coursework">
-  <div class="section__head">
-    <h2>Coursework</h2>
-    <p class="section__note">Weights are described in the <a href="{{ site.baseurl }}/syllabus/">syllabus</a>.</p>
-  </div>
-
-  <ul class="info-grid">
-    <li class="info-card">
-      <span class="info-card__label">Homeworks</span>
-      <span class="info-card__value">Four assignments <span class="chip chip--tbd">Dates TBD</span></span>
-      <span class="info-card__hint">Released across the semester as mini-projects. Handouts are posted on Canvas.</span>
-    </li>
-    <li class="info-card">
-      <span class="info-card__label">Quizzes</span>
-      <span class="info-card__value">Weekly <span class="chip chip--tbd">Dates TBD</span></span>
-      <span class="info-card__hint">Short multiple-choice quizzes on the previous week's material.</span>
-    </li>
-    <li class="info-card">
-      <span class="info-card__label">Group project</span>
-      <span class="info-card__value">Team project <span class="chip chip--tbd">Dates TBD</span></span>
-      <span class="info-card__hint">Proposal, midway report and final presentation, scheduled once the term calendar is set.</span>
-    </li>
-  </ul>
-</section>
-
-{% comment %}
-===============================================================================
- TODO: RESTORE FOR FALL 2026 — dated lecture table (slides + homework links)
-===============================================================================
-
- Everything below is intentionally disabled while the calendar is TBA. Nothing
- in this block reaches the built page.
-
- To bring the schedule back:
-   1. Copy _data/lectures_fall2025.yml to _data/lectures_fall2026.yml and update
-      the dates, titles, `lectures:` (slide/recording links) and `Homeworks:`
-      entries. The Fall 2025 file is kept intact so links can be reused.
-   2. Delete the `{% raw %}{% comment %}{% endraw %}` / `{% raw %}{% endcomment %}{% endraw %}`
-      wrapper around the markup below.
-   3. Optionally drop the "What the course covers" and "Coursework" sections
-      above, or keep them as an overview alongside the table.
-
--------------------------------------------------------------------------------
-
-<div class="schedule-table-wrap">
-<table class="table table-hover">
-  <colgroup>
-    <col style="width:12%">
-    <col style="width:48%">
-    <col style="width:18%">
-    <col style="width:22%">
-  </colgroup>
-  <thead class="thead-light">
-    <tr>
-      <th scope="col">Date</th>
-      <th scope="col">Topics</th>
-      <th scope="col">Lectures</th>
-      <th scope="col">Homeworks</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% assign current_module = 0 %}
-    {% assign skip_classes = 0 %}
-    {% assign prev_date = 0 %}
-
-    {% for item in site.data.lectures_fall2026 %}
-      {% if item.date %}
-        {% assign lecture = item %}
-        {% assign event_type = "upcoming" %}
-        {% assign today_date = "now" | date: "%s" | divided_by: 86400 %}
-        {% assign lecture_date = lecture.date | date: "%s" | divided_by: 86400 %}
-        {% if today_date > lecture_date %}
-          {% assign event_type = "past" %}
-        {% elsif today_date <= lecture_date and today_date > prev_date %}
-          {% assign event_type = "warning" %}
-        {% endif %}
-        {% assign prev_date = lecture_date %}
-
-        <tr class="{{ event_type }}">
-          <th scope="row">{{ lecture.date }}</th>
-          {% if lecture.title contains 'lectures' %}
-            {% assign skip_classes = skip_classes | plus: 1 %}
-            <td colspan="4">{{ lecture.title }}</td>
-          {% else %}
-            <td>
-              {{ lecture.title }}
-              <ul>
-                {% for topic in lecture.topics %}
-                  <li style="font-size:12px;">{{ topic }}</li>
-                {% endfor %}
-              </ul>
-            </td>
-            <td>{{ lecture.lectures }}</td>
-            <td>{{ lecture.Homeworks }}</td>
-          {% endif %}
-        </tr>
-      {% else %}
-        {% assign current_module = current_module | plus: 1 %}
-        {% assign module = item %}
-        <tr class="info">
-          <td colspan="5" align="center"><strong>{{ module.title }}</strong></td>
-        </tr>
-      {% endif %}
-    {% endfor %}
-  </tbody>
-</table>
-</div>
-
-===============================================================================
-{% endcomment %}

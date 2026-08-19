@@ -9,10 +9,10 @@ nav: true
 <div class="notice notice--tbd">
   <span class="notice__bar" aria-hidden="true"></span>
   <span class="chip chip--tbd">TBD</span>
-  <h3>Logistics are still being finalized</h3>
-  <p>Course policies below carry over from previous editions of 11-755. Anything tied to the {{ site.course_term }}
-    calendar &mdash; meeting times, room, Zoom, Piazza and Canvas &mdash; is marked TBD and will be filled in before
-    the first lecture.</p>
+  <h3>Some logistics are still being finalized</h3>
+  <p>Course policies below carry over from previous editions of 11-755. Meeting times, room, Piazza, Canvas and
+    office hours remain TBD. The lecture calendar is on the <a href="{{ site.baseurl }}/schedule/">schedule</a>
+    page. Remote attendance uses the Zoom link below.</p>
 </div>
 
 * (The list will be replaced with the table of contents.)
@@ -43,20 +43,18 @@ While it is not necessary to have a deep understanding of specific machine learn
   </li>
   <li class="info-card">
     <span class="info-card__label">Zoom</span>
-    <span class="info-card__value"><span class="chip chip--tbd">TBD</span></span>
-    <span class="info-card__hint">Used if a lecture has to move online.</span>
+    <span class="info-card__value"><a href="https://cmu.zoom.us/j/97661004908" target="_blank" rel="noopener">cmu.zoom.us/j/97661004908</a></span>
+    <span class="info-card__hint">Used for remote attendance and if a lecture has to move online.</span>
   </li>
 </ul>
 
-{% comment %} TODO: restore with the Fall 2026 timetable (Fall 2024 values kept for reference).
+{% comment %} TODO: restore when the Fall 2026 meeting time and room are announced (Fall 2024 values kept for reference).
 Tuesday: 2:00 PM to 3:20 PM EST/EDT.
 Thursday: 2:00 PM to 3:20 PM EST/EDT.
 Location (in person): Doherty Hall (DH) A302, at basement one.
-Zoom ID: 98758168075
-Passcode: 684222
 {% endcomment %}
 
-This course will be taught in person. In the event that an instructor is unable to deliver a lecture in person, we will broadcast that lecture over Zoom or, in extreme situations, expect you to view pre-recorded lectures from prior semesters. You will be notified through Piazza should any of these eventualities arise, and the Zoom details will be posted here and on Canvas.
+This course will be taught in person. In the event that an instructor is unable to deliver a lecture in person, we will broadcast that lecture over Zoom or, in extreme situations, expect you to view pre-recorded lectures from prior semesters. You will be notified through Piazza should any of these eventualities arise. Remote Zoom: <a href="https://cmu.zoom.us/j/97661004908" target="_blank" rel="noopener">https://cmu.zoom.us/j/97661004908</a>.
 
 **Website:** The main course website is online at:
 
@@ -99,6 +97,6 @@ We will have weekly quizzes that are released on Saturday 12:00 a.m. EST/EDT and
 
 We are currently planning to have four (maybe five) homework assignments, released at various points across the semester. The homeworks have been carefully designed as mini projects to ensure that you not only understand the general use case of a technique (e.g., expectation maximization), but can also apply it creatively to an interesting problem (e.g., deblurring an image). You will not catch up if you slack on any of them. So, please start early and feel free to ask for help :-)
 
-Finally, the project is an opportunity for you and your peers to utilize the variety of techniques we cover throughout the semester to solve a compelling issue in a novel way. Topics will be suggested early in the course, and each group should be well-prepared for a video presentation at the end of the semester. **Project deadlines and the presentation date are TBD** and will be posted on the [schedule]({{ site.baseurl }}/schedule/). The final evaluation is partly done by peer grading.
+Finally, the project is an opportunity for you and your peers to utilize the variety of techniques we cover throughout the semester to solve a compelling issue in a novel way. Topics will be suggested early in the course, and each group should be well-prepared for a video presentation at the end of the semester. Project checkpoints on the [schedule]({{ site.baseurl }}/schedule/): document out Sep 17, teams form Oct 6, proposal due Oct 29, mid-term checkpoint Nov 17, final report Dec 7. **The presentation date is TBD.** The final evaluation is partly done by peer grading.
 
 Attendance is measured by responses to in-class polls. Alternately, viewership of Panopto videos for Kigali students.

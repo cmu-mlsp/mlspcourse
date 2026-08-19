@@ -1,0 +1,245 @@
+# =============================================================================
+# Fall 2026 lecture calendar — source of truth for /schedule/
+#
+# Extracted from "Copy of Logistics - Lecture Schedule 2026".
+# The public table renders only: date, lecture number, lecture name, quiz,
+# and a combined homework/project column. Shadow-TA assignments and internal
+# HW topic notes are intentionally omitted.
+#
+# DO NOT publish slides, lecture files, or homework files on the public site.
+# Matching Fall 2025 Drive links are listed as YAML comments for restore.
+# The schedule template also wraps any materials markup in Liquid comments.
+# =============================================================================
+
+- date: 2026-08-25
+  type: lecture
+  lecture: 1
+  title: Introduction
+  quiz:
+  work: []
+  # TODO restore slides: https://drive.google.com/file/d/1FFRCRFE1oV4twMgke9kN_tbTrhqErZNC/view?usp=drive_link
+
+- date: 2026-08-27
+  type: lecture
+  lecture: 2
+  title: Linear Algebra 1
+  quiz: 1
+  work: []
+  # TODO restore slides: https://drive.google.com/file/d/1nggZr8-04HRyMnGQTmoqlK5uvh7InXZq/view?usp=drive_link
+
+- date: 2026-09-01
+  type: lecture
+  lecture: 3
+  title: Linear Algebra 2
+  quiz:
+  work:
+    - HW 1 released
+  # TODO restore slides: https://drive.google.com/file/d/1LdEg9bJQu8_lO-j2goPfcfLXdpKaXbW2/view?usp=drive_link
+
+- date: 2026-09-03
+  type: lecture
+  lecture: 4
+  title: Optimization
+  quiz: 2
+  work: []
+  # TODO restore slides: https://drive.google.com/file/d/11eFEK2Dd036ewUY0ol736nrsTrIxHKDs/view?usp=drive_link
+
+- date: 2026-09-08
+  type: lecture
+  lecture: 5
+  title: Deterministic Representations
+  quiz:
+  work: []
+  # TODO restore slides: https://drive.google.com/file/d/1E5brnD16YKt6amJ8KjPIR4Q-Y0VZhGfU/view?usp=drive_link
+
+- date: 2026-09-10
+  type: lecture
+  lecture: 6
+  title: Data-Driven Representations
+  quiz: 3
+  work: []
+  # TODO restore slides: https://drive.google.com/file/d/1MKlb-C9Alx6sT_frgBMCxpnp3MYI1Pgt/view?usp=drive_link
+
+- date: 2026-09-15
+  type: lecture
+  lecture: 7
+  title: Non-Negative Matrix Factorization
+  quiz:
+  work: []
+  # TODO restore slides: https://drive.google.com/file/d/1kJOts__CcTQMEEGdB9Dhg4z6q9adsUbH/view?usp=drive_link
+
+- date: 2026-09-17
+  type: lecture
+  lecture: 8
+  title: Adaboost and Face Detection
+  quiz: 4
+  work:
+    - HW 1 due
+    - Project document out
+  # TODO restore slides: https://drive.google.com/file/d/18_GSZPWdICE9hbf4rVrvdGMtIZghlg3b/view?usp=drive_link
+
+- date: 2026-09-22
+  type: lecture
+  lecture: 9
+  title: Probability and Information Theory
+  quiz:
+  work:
+    - HW 2 released
+  # TODO restore slides: https://drive.google.com/file/d/1SskBHGWen_jDIuS3K--Dk4D9rbnW9icr/view?usp=drive_link
+
+- date: 2026-09-24
+  type: lecture
+  lecture: 10
+  title: Independent Component Analysis
+  quiz: 5
+  work: []
+  # TODO restore slides: https://drive.google.com/file/d/1QEFZn852Gl4YyHxfa-abQ-HfkihIRDKn/view?usp=sharing
+
+- date: 2026-09-29
+  type: lecture
+  lecture: 11
+  title: Clustering
+  quiz:
+  work: []
+  # TODO restore slides: https://drive.google.com/file/d/1IaRftcdxe5tHTDqP1VPcZrNDDdTfQLiY/view?usp=sharing
+
+- date: 2026-10-01
+  type: lecture
+  lecture: 12
+  title: Sparse and Overcomplete Representations / Dictionary Representations
+  quiz: 6
+  work: []
+  # TODO restore slides: https://drive.google.com/file/d/1Wm4HeGcrhmE2HI4SivV3G7O6NkTNf7KQ/view?usp=sharing
+
+- date: 2026-10-06
+  type: lecture
+  lecture: 13
+  title: Regression and Prediction
+  quiz:
+  work:
+    - Project teams form
+  # TODO restore slides: https://drive.google.com/file/d/1wY8xW_cteFanxMhjRWHk8GOmPuvK90eS/view?usp=sharing
+
+- date: 2026-10-08
+  type: lecture
+  lecture: 14
+  title: Linear Classifier
+  quiz: 7
+  work:
+    - HW 2 due
+  # TODO restore slides: https://drive.google.com/file/d/1oqQbWU_Yioos0XqyvSup9JHcctqTPa5O/view?usp=sharing
+
+- date: 2026-10-20
+  type: holiday
+  lecture:
+  title: No Class — Fall Break
+  quiz:
+  work:
+    - HW 3 released
+
+- date: 2026-10-22
+  type: noclass
+  lecture:
+  title: No Class
+  quiz:
+  work: []
+
+- date: 2026-10-27
+  type: lecture
+  lecture: 15
+  title: Canonical Correlation Analysis
+  quiz:
+  work: []
+  # TODO restore slides: https://drive.google.com/file/d/1jcj_tXHiOG3jS4ovFOn2Bq_-mXS_lY57/view?usp=sharing
+
+- date: 2026-10-29
+  type: lecture
+  lecture: 16
+  title: Expectation Maximization 1
+  quiz: 8
+  work:
+    - Project proposal due
+  # TODO restore slides: https://drive.google.com/file/d/1YaHrGG8PBIOc5cg9KYuH4FPWX6r5hjTe/view?usp=sharing
+
+- date: 2026-11-05
+  type: lecture
+  lecture: 17
+  title: Expectation Maximization 2
+  quiz:
+  work: []
+  # TODO restore slides: https://drive.google.com/file/d/1NLLuDr6Dh0nkVE9QCzH3McwpJj0veAlW/view?usp=sharing
+
+- date: 2026-11-10
+  type: lecture
+  lecture: 18
+  title: Factor Analysis
+  quiz: 9
+  work: []
+  # TODO restore slides: https://drive.google.com/file/d/131gNbF3ZpJdciRT9JAlNw2zDK_pMxUFk/view?usp=sharing
+
+- date: 2026-11-12
+  type: holiday
+  lecture:
+  title: No Class — Democracy Day
+  quiz:
+  work: []
+
+- date: 2026-11-17
+  type: lecture
+  lecture: 19
+  title: Hidden Markov Models
+  quiz: 10
+  work:
+    - HW 3 due
+    - HW 4 released
+    - Project mid-term checkpoint
+  # TODO restore slides: https://drive.google.com/file/d/10nxS2i447NYu0PhyHaNf-TUwhC2wcilA/view?usp=sharing
+
+- date: 2026-11-19
+  type: lecture
+  lecture: 20
+  title: Hidden Markov Models 2
+  quiz:
+  work: []
+  # TODO restore slides: https://drive.google.com/file/d/141FAYfE42mULyduDUryk87VSFdjSFCSr/view?usp=sharing
+
+- date: 2026-11-24
+  type: lecture
+  lecture: 21
+  title: Kalman Filtering 1
+  quiz: 11
+  work: []
+  # TODO restore slides: https://drive.google.com/file/d/1oR4W7S5q3NtqsGrVU97kEwfdEB7o0KJ6/view?usp=sharing
+
+- date: 2026-11-26
+  type: holiday
+  lecture:
+  title: Thanksgiving break
+  quiz:
+  work: []
+
+- date: 2026-12-01
+  type: lecture
+  lecture: 22
+  title: Kalman Filtering 2 + Particle Filtering
+  quiz:
+  work: []
+  # TODO restore slides: https://drive.google.com/file/d/1qn1XwFmdiCw0r8TYgYVshUp5gRuGC53G/view?usp=sharing
+
+- date: 2026-12-03
+  type: lecture
+  lecture: 23
+  title: Maxent models and Survival Analysis
+  quiz: 12
+  work: []
+  # TODO restore slides: https://drive.google.com/file/d/1s9mCsOASQZjYLiJ4gwgprqgIHoPTnDiZ/view?usp=sharing
+  # TODO restore survival slides: https://drive.google.com/file/d/1bR8p1idojcJALMz2Cu6puAiXsxVriRIG/view?usp=sharing
+
+- date: 2026-12-07
+  type: lecture
+  lecture: 24
+  title: Time to Predict Very Rare Events
+  quiz: 14
+  work:
+    - Project final report
+  # Exam week is not listed on the source calendar. HW 4 due date is not listed.

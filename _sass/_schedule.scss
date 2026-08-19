@@ -2,9 +2,8 @@
 // Schedule page
 //
 // Two presentations live here:
-//   1. `.topic-*`  — the Fall 2026 "schedule TBA" topic outline (no dates).
-//   2. `.table`    — the dated lecture table, used again once the calendar is
-//                    published (see the commented-out block in _pages/schedule.md).
+//   1. `.schedule-table` — dated lecture calendar (public columns only).
+//   2. `.topic-*`        — theme outline under the table.
 // =============================================================================
 
 .topic-modules {
@@ -94,15 +93,117 @@
 }
 
 // -----------------------------------------------------------------------------
-// Dated lecture table (restored once the Fall 2026 calendar is set)
+// Dated lecture table
 // -----------------------------------------------------------------------------
+.schedule-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  margin: 1.1rem 0 0.85rem;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+.schedule-legend__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.schedule-swatch {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 3px;
+  border: 1px solid var(--line-strong);
+}
+
+.schedule-swatch--holiday {
+  background: var(--amber-wash);
+  border-color: var(--amber);
+}
+
+.schedule-swatch--noclass {
+  background: var(--surface-sunken);
+  border-color: var(--ink-3);
+}
+
+.schedule-swatch--exam {
+  background: var(--accent-wash);
+  border-color: var(--accent);
+}
+
 .schedule-table-wrap {
   overflow-x: auto;
-  margin-top: 1.25rem;
+  margin-top: 0.5rem;
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
   background: var(--surface);
   box-shadow: var(--shadow-sm);
+  -webkit-overflow-scrolling: touch;
+}
+
+.schedule-work {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    position: relative;
+    padding: 0.12rem 0 0.12rem 0.85rem;
+    color: var(--ink);
+    font-size: 0.88rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.65em;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+  }
+}
+
+.schedule-event {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.schedule-footnote {
+  margin-top: 0.85rem;
+  font-size: 0.82rem;
+  color: var(--ink-3);
+  max-width: 72ch;
+}
+
+.announce-table {
+  width: 100%;
+  border-collapse: collapse;
+
+  td {
+    padding: 0.7rem 0;
+    vertical-align: top;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .date {
+    width: 8.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    color: var(--accent);
+    white-space: nowrap;
+    padding-right: 1rem;
+  }
+
+  .announcement {
+    color: var(--ink-2);
+    font-size: 0.95rem;
+  }
 }
 
 .post-content .table {
@@ -168,10 +269,71 @@ tr.warning > td {
   background-color: transparent !important;
 }
 
+.schedule-row--holiday > th,
+.schedule-row--holiday > td {
+  background: var(--amber-wash) !important;
+}
+
+.schedule-row--noclass > th,
+.schedule-row--noclass > td {
+  background: var(--surface-sunken) !important;
+}
+
+.schedule-row--exam > th,
+.schedule-row--exam > td {
+  background: var(--accent-wash) !important;
+}
+
 span.event {
   color: var(--accent);
 }
 
 span.deadline {
   color: var(--crimson);
+}
+
+@media screen and (max-width: 720px) {
+  .schedule-table thead {
+    display: none;
+  }
+
+  .schedule-table,
+  .schedule-table tbody,
+  .schedule-table tr,
+  .schedule-table th,
+  .schedule-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .schedule-table > tbody > tr {
+    padding: 0.35rem 0 0.7rem;
+    border-bottom: 1px solid var(--line-strong);
+  }
+
+  .schedule-table > tbody > tr > th,
+  .schedule-table > tbody > tr > td {
+    display: grid;
+    grid-template-columns: 8.5rem 1fr;
+    gap: 0.6rem;
+    white-space: normal;
+    border-top: 0;
+    padding: 0.35rem 1rem;
+  }
+
+  .schedule-table > tbody > tr > th::before,
+  .schedule-table > tbody > tr > td::before {
+    content: attr(data-label);
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+
+  .schedule-table > tbody > tr > th {
+    font-size: 0.9rem;
+    padding-top: 0.85rem;
+  }
 }

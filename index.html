@@ -33,7 +33,7 @@ title: "11-755 MLSP"
       <div class="hero__text">
         <div class="hero__kicker">
           <span class="chip chip--accent">{{ site.course_number }} &middot; {{ site.course_term }}</span>
-          <span class="chip chip--tbd">Schedule TBA</span>
+          <span class="chip chip--accent">Calendar posted</span>
         </div>
         <h1 class="post-title"><b>M</b>achine <b>L</b>earning for <b>S</b>ignal <b>P</b>rocessing</h1>
         <h2 class="post-description">Carnegie Mellon University &middot; School of Computer Science</h2>
@@ -90,11 +90,8 @@ title: "11-755 MLSP"
 
         <li class="info-card">
           <span class="info-card__label">Remote attendance</span>
-          <span class="info-card__value"><span class="chip chip--tbd">TBD</span></span>
-          <span class="info-card__hint">A Zoom link will be posted here and on Canvas.</span>
-          {% comment %} TODO: restore with the Fall 2026 Zoom meeting.
-          <span class="info-card__value"><a href="https://cmu.zoom.us/j/97661004908" target="_blank">Zoom meeting link</a></span>
-          {% endcomment %}
+          <span class="info-card__value"><a href="https://cmu.zoom.us/j/97661004908" target="_blank" rel="noopener">Zoom meeting</a></span>
+          <span class="info-card__hint">Join at <a href="https://cmu.zoom.us/j/97661004908" target="_blank" rel="noopener">cmu.zoom.us/j/97661004908</a>. Also posted on Canvas once the course site opens.</span>
         </li>
 
         <li class="info-card">
@@ -268,24 +265,12 @@ title: "11-755 MLSP"
     <section class="section news" id="announcements">
       <h2>Announcements</h2>
 
-      <div class="notice">
-        <span class="notice__bar" aria-hidden="true"></span>
-        <p>No announcements yet. Course announcements for {{ site.course_term }} will appear here and on Piazza once
-          the semester gets underway.</p>
-      </div>
-
-      {% comment %} TODO: restore this table and add Fall 2026 entries when the term starts.
       <table>
         <tr>
-          <td class="date">Aug 26, 2025</td>
-          <td class="announcement">Welcome to 11-755, Machine Learning for Signal Processing, Fall 2025!</td>
-        </tr>
-        <tr>
-          <td class="date">Sept 8, 2025</td>
-          <td class="announcement">We will be holding regular office hours starting this week. Please check the "Office Hours" section above for details.</td>
+          <td class="date">Aug 19, 2026</td>
+          <td class="announcement">Welcome to 11-755, Machine Learning for Signal Processing, Fall 2026. The lecture calendar is on the <a href="{{ site.baseurl }}/schedule/">schedule</a> page. Meeting time, room, Piazza, Canvas and office hours are still TBD. Remote attendance uses <a href="https://cmu.zoom.us/j/97661004908" target="_blank" rel="noopener">this Zoom link</a>.</td>
         </tr>
       </table>
-      {% endcomment %}
     </section>
 
   </article>

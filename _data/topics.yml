@@ -1,11 +1,9 @@
 # -----------------------------------------------------------------------------
 # Fall 2026 topic outline
 #
-# Deliberately date-free and link-free: it is the "what the course covers"
-# reference that the schedule page shows while the calendar is still TBA.
-# The dated lecture-by-lecture table lives in _data/lectures_fall2026.yml (see
-# the commented-out block in _pages/schedule.md) and the previous edition is
-# archived in _data/lectures_fall2025.yml.
+# Date-free topic outline shown under the dated calendar.
+# The lecture-by-lecture table lives in _data/lectures_fall2026.yml.
+# The previous edition is archived in _data/lectures_fall2025.yml.
 #
 # Topics are grouped by theme and are subject to change based on student
 # interests and course discussions.

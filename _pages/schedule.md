@@ -7,13 +7,15 @@ nav: true
 ---
 
 <p class="lede">Lecture dates, quizzes, homeworks and project checkpoints for
-{{ site.course_term }}. Meeting times and the room remain TBD until the university
-timetable is posted. The order of topics can still shift with class discussion.</p>
+{{ site.course_term }}. Regular meetings are {{ site.meeting_days }},
+{{ site.meeting_time }}, in {{ site.meeting_room }}. The order of topics can still
+shift with class discussion.</p>
+
+{% include meet-strip.html %}
 
 <div class="schedule-legend" role="note">
   <span class="schedule-legend__item"><span class="schedule-swatch schedule-swatch--holiday" aria-hidden="true"></span> Holiday / break</span>
   <span class="schedule-legend__item"><span class="schedule-swatch schedule-swatch--noclass" aria-hidden="true"></span> No class</span>
-  <span class="schedule-legend__item"><span class="schedule-swatch schedule-swatch--exam" aria-hidden="true"></span> Exam week</span>
 </div>
 
 <div class="schedule-table-wrap">
@@ -59,8 +61,9 @@ timetable is posted. The order of topics can still shift with class discussion.<
 </table>
 </div>
 
-<p class="schedule-footnote">Quizzes follow the numbering on the course calendar (there is no Quiz 13).
-HW 4 is released on Nov 17; its due date is not on the source calendar. Exam week is not listed.</p>
+<p class="schedule-footnote">Quiz numbers follow the source calendar (there is no Quiz 13).
+HW4 is released on Nov 17; its due date is not listed. Exam week is not listed.
+Dec 7 is a Monday on the source calendar, outside the usual Tuesday/Thursday pattern.</p>
 
 <section class="section" id="coursework">
   <div class="section__head">
@@ -72,7 +75,7 @@ HW 4 is released on Nov 17; its due date is not on the source calendar. Exam wee
     <li class="info-card">
       <span class="info-card__label">Homeworks</span>
       <span class="info-card__value">Four assignments</span>
-      <span class="info-card__hint">HW 1: Sep 1–17. HW 2: Sep 22–Oct 8. HW 3: Oct 20–Nov 17. HW 4 released Nov 17 (due date TBD).</span>
+      <span class="info-card__hint">HW1: Sep 1–17. HW2: Sep 22–Oct 8. HW3: Oct 20–Nov 17. HW4 Release Nov 17 (due date not listed).</span>
     </li>
     <li class="info-card">
       <span class="info-card__label">Quizzes</span>
@@ -82,7 +85,7 @@ HW 4 is released on Nov 17; its due date is not on the source calendar. Exam wee
     <li class="info-card">
       <span class="info-card__label">Group project</span>
       <span class="info-card__value">Document, teams, proposal, checkpoint, report</span>
-      <span class="info-card__hint">Document out Sep 17. Teams Oct 6. Proposal Oct 29. Mid-term checkpoint Nov 17. Final report Dec 7. Presentation date TBD.</span>
+      <span class="info-card__hint">Document out Sep 17. Team form Oct 6. Proposal Due Oct 29. Mid-term check point Nov 17. Final report Dec 7. Presentation date TBD.</span>
     </li>
   </ul>
 </section>

@@ -12,6 +12,11 @@ description: >
 course_number: 11-755
 course_term: Fall 2026
 course_year: 2026
+meeting_days: Tuesday and Thursday
+meeting_time: 2:00pm–3:20pm
+meeting_room: GHC 4307
+meeting_building: Gates Hillman Center
+zoom_url: "https://cmu.zoom.us/j/97661004908"
 # footer_text: >
 #  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 

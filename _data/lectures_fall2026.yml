@@ -33,7 +33,7 @@
   title: Linear Algebra 2
   quiz:
   work:
-    - HW 1 released
+    - HW1 Release
   # TODO restore slides: https://drive.google.com/file/d/1LdEg9bJQu8_lO-j2goPfcfLXdpKaXbW2/view?usp=drive_link
 
 - date: 2026-09-03
@@ -74,8 +74,8 @@
   title: Adaboost and Face Detection
   quiz: 4
   work:
-    - HW 1 due
-    - Project document out
+    - HW1 Due
+    - Document out
   # TODO restore slides: https://drive.google.com/file/d/18_GSZPWdICE9hbf4rVrvdGMtIZghlg3b/view?usp=drive_link
 
 - date: 2026-09-22
@@ -84,7 +84,7 @@
   title: Probability and Information Theory
   quiz:
   work:
-    - HW 2 released
+    - HW2 Release
   # TODO restore slides: https://drive.google.com/file/d/1SskBHGWen_jDIuS3K--Dk4D9rbnW9icr/view?usp=drive_link
 
 - date: 2026-09-24
@@ -106,7 +106,7 @@
 - date: 2026-10-01
   type: lecture
   lecture: 12
-  title: Sparse and Overcomplete Representations / Dictionary Representations
+  title: Sparse and Overcomplete Representations | Dictionary Representations
   quiz: 6
   work: []
   # TODO restore slides: https://drive.google.com/file/d/1Wm4HeGcrhmE2HI4SivV3G7O6NkTNf7KQ/view?usp=sharing
@@ -117,7 +117,7 @@
   title: Regression and Prediction
   quiz:
   work:
-    - Project teams form
+    - Team form
   # TODO restore slides: https://drive.google.com/file/d/1wY8xW_cteFanxMhjRWHk8GOmPuvK90eS/view?usp=sharing
 
 - date: 2026-10-08
@@ -126,16 +126,16 @@
   title: Linear Classifier
   quiz: 7
   work:
-    - HW 2 due
+    - HW2 Due
   # TODO restore slides: https://drive.google.com/file/d/1oqQbWU_Yioos0XqyvSup9JHcctqTPa5O/view?usp=sharing
 
 - date: 2026-10-20
   type: holiday
   lecture:
-  title: No Class — Fall Break
+  title: No Class - Fall Break
   quiz:
   work:
-    - HW 3 released
+    - HW3 Release
 
 - date: 2026-10-22
   type: noclass
@@ -158,7 +158,7 @@
   title: Expectation Maximization 1
   quiz: 8
   work:
-    - Project proposal due
+    - Proposal Due
   # TODO restore slides: https://drive.google.com/file/d/1YaHrGG8PBIOc5cg9KYuH4FPWX6r5hjTe/view?usp=sharing
 
 - date: 2026-11-05
@@ -180,7 +180,7 @@
 - date: 2026-11-12
   type: holiday
   lecture:
-  title: No Class — Democracy Day
+  title: No Class - Democracy Day
   quiz:
   work: []
 
@@ -190,15 +190,14 @@
   title: Hidden Markov Models
   quiz: 10
   work:
-    - HW 3 due
-    - HW 4 released
-    - Project mid-term checkpoint
+    - HW3 Due/HW4 Release
+    - Mid-term check point
   # TODO restore slides: https://drive.google.com/file/d/10nxS2i447NYu0PhyHaNf-TUwhC2wcilA/view?usp=sharing
 
 - date: 2026-11-19
   type: lecture
   lecture: 20
-  title: Hidden Markov Models 2
+  title: HMM2
   quiz:
   work: []
   # TODO restore slides: https://drive.google.com/file/d/141FAYfE42mULyduDUryk87VSFdjSFCSr/view?usp=sharing
@@ -241,5 +240,5 @@
   title: Time to Predict Very Rare Events
   quiz: 14
   work:
-    - Project final report
+    - Final report
   # Exam week is not listed on the source calendar. HW 4 due date is not listed.

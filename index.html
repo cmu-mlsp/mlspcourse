@@ -33,10 +33,11 @@ title: "11-755 MLSP"
       <div class="hero__text">
         <div class="hero__kicker">
           <span class="chip chip--accent">{{ site.course_number }} &middot; {{ site.course_term }}</span>
-          <span class="chip chip--accent">Calendar posted</span>
+          <span class="chip chip--accent">{{ site.meeting_room }}</span>
         </div>
         <h1 class="post-title"><b>M</b>achine <b>L</b>earning for <b>S</b>ignal <b>P</b>rocessing</h1>
         <h2 class="post-description">Carnegie Mellon University &middot; School of Computer Science</h2>
+        {% include meet-strip.html %}
       </div>
     </div>
   </header>
@@ -60,40 +61,14 @@ title: "11-755 MLSP"
 
     <hr class="signal-rule" />
 
-    <!-- Logistics: rooms, meeting times and course spaces are TBD until the
-         university timetable is published. Each card carries a commented-out
-         value ready to be restored. -->
+    <!-- Logistics: Piazza, Canvas and office hours remain TBD. -->
     <section class="section" id="logistics">
       <div class="section__head">
         <h2>Course logistics</h2>
-        <p class="section__note">Details are confirmed shortly before the semester begins.</p>
+        <p class="section__note">In person in {{ site.meeting_room }}, with Zoom for remote attendance.</p>
       </div>
 
       <ul class="info-grid">
-        <li class="info-card">
-          <span class="info-card__label">Meetings</span>
-          <span class="info-card__value"><span class="chip chip--tbd">TBD</span></span>
-          <span class="info-card__hint">Days and times are set when the university timetable is published.</span>
-          {% comment %} TODO: restore when Fall 2026 meeting times are announced.
-          <span class="info-card__value">Tuesdays &amp; Thursdays, 2:00&ndash;3:20 PM</span>
-          {% endcomment %}
-        </li>
-
-        <li class="info-card">
-          <span class="info-card__label">Location</span>
-          <span class="info-card__value"><span class="chip chip--tbd">TBD</span></span>
-          <span class="info-card__hint">Room assignment pending.</span>
-          {% comment %} TODO: restore when the Fall 2026 room is assigned.
-          <span class="info-card__value">BH-A53</span>
-          {% endcomment %}
-        </li>
-
-        <li class="info-card">
-          <span class="info-card__label">Remote attendance</span>
-          <span class="info-card__value"><a href="https://cmu.zoom.us/j/97661004908" target="_blank" rel="noopener">Zoom meeting</a></span>
-          <span class="info-card__hint">Join at <a href="https://cmu.zoom.us/j/97661004908" target="_blank" rel="noopener">cmu.zoom.us/j/97661004908</a>. Also posted on Canvas once the course site opens.</span>
-        </li>
-
         <li class="info-card">
           <span class="info-card__label">Discussion &amp; Q&amp;A</span>
           <span class="info-card__value">Piazza <span class="chip chip--tbd">TBD</span></span>
@@ -268,7 +243,7 @@ title: "11-755 MLSP"
       <table>
         <tr>
           <td class="date">Aug 19, 2026</td>
-          <td class="announcement">Welcome to 11-755, Machine Learning for Signal Processing, Fall 2026. The lecture calendar is on the <a href="{{ site.baseurl }}/schedule/">schedule</a> page. Meeting time, room, Piazza, Canvas and office hours are still TBD. Remote attendance uses <a href="https://cmu.zoom.us/j/97661004908" target="_blank" rel="noopener">this Zoom link</a>.</td>
+          <td class="announcement">Welcome to 11-755, Machine Learning for Signal Processing, Fall 2026. We meet {{ site.meeting_days }}, {{ site.meeting_time }}, in {{ site.meeting_room }}. The lecture calendar is on the <a href="{{ site.baseurl }}/schedule/">schedule</a> page. Remote attendance uses <a href="{{ site.zoom_url }}" target="_blank" rel="noopener">this Zoom link</a>. Piazza, Canvas and office hours are still TBD.</td>
         </tr>
       </table>
     </section>

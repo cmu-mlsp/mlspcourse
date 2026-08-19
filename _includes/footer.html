@@ -11,6 +11,9 @@
             {{ site.course_number }} &middot; {{ site.course_term }}
           </li>
           <li>Carnegie Mellon University</li>
+          <li>{{ site.meeting_days }}</li>
+          <li>{{ site.meeting_time }} &middot; {{ site.meeting_room }}</li>
+          <li><a href="{{ site.zoom_url }}" target="_blank" rel="noopener">Zoom</a></li>
           {%- if site.email -%}
           <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
           {%- endif -%}

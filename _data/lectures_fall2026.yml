@@ -205,13 +205,6 @@
   # TODO restore slides: https://drive.google.com/file/d/1oR4W7S5q3NtqsGrVU97kEwfdEB7o0KJ6/view?usp=sharing
 
 - date: 2026-11-17
-  type: holiday
-  lecture:
-  title: Thanksgiving break
-  quiz:
-  work: []
-
-- date: 2026-11-19
   type: lecture
   lecture: 22
   title: Kalman Filtering 2
@@ -219,13 +212,22 @@
   work: []
   # TODO restore slides: https://drive.google.com/file/d/1qn1XwFmdiCw0r8TYgYVshUp5gRuGC53G/view?usp=sharing
 
-- date: 2026-11-24
+- date: 2026-11-19
   type: lecture
   lecture: 23
   title: Particle Filtering
-  quiz: 12
+  quiz:
   work: []
   # TODO restore slides: https://drive.google.com/file/d/1E_WBqB5WBJ53vGSjTtjv7nR085RVCe9f/view?usp=sharing
+
+- date: 2026-11-24
+  type: lecture
+  lecture: 24
+  title: Maxent models and Survival Analysis
+  quiz: 12
+  work: []
+  # TODO restore slides: https://drive.google.com/file/d/1s9mCsOASQZjYLiJ4gwgprqgIHoPTnDiZ/view?usp=sharing
+  # TODO restore survival slides: https://drive.google.com/file/d/1bR8p1idojcJALMz2Cu6puAiXsxVriRIG/view?usp=sharing
 
 - date: 2026-11-26
   type: holiday
@@ -236,17 +238,15 @@
 
 - date: 2026-12-01
   type: lecture
-  lecture: 24
-  title: Maxent models and Survival Analysis
+  lecture: 25
+  title: Time to Predict Very Rare Events
   quiz:
   work: []
-  # TODO restore slides: https://drive.google.com/file/d/1s9mCsOASQZjYLiJ4gwgprqgIHoPTnDiZ/view?usp=sharing
-  # TODO restore survival slides: https://drive.google.com/file/d/1bR8p1idojcJALMz2Cu6puAiXsxVriRIG/view?usp=sharing
 
 - date: 2026-12-03
   type: lecture
-  lecture: 25
-  title: Time to Predict Very Rare Events
+  lecture: 26
+  title: TBD
   quiz:
   work:
     - Final report

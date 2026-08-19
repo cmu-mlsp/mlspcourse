@@ -62,8 +62,7 @@ shift with class discussion.</p>
 </div>
 
 <p class="schedule-footnote">Quiz numbers follow the source calendar (quizzes 1–12; there is no Quiz 13 or 14).
-HW3 Release is Oct 13; HW3 Due/HW4 Release is Nov 5. HW4 due date is not listed. Exam week is not listed.
-The source sheet lists Expectation Maximization 2 on 11/27, in row order between Oct 22 and Oct 29.</p>
+HW3 Release is Oct 13; HW3 Due/HW4 Release is Nov 5. HW4 due date is not listed. Exam week is not listed.</p>
 
 <section class="section" id="coursework">
   <div class="section__head">

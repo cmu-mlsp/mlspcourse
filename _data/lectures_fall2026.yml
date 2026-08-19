@@ -155,13 +155,12 @@
     - Proposal Due
   # TODO restore slides: https://drive.google.com/file/d/1YaHrGG8PBIOc5cg9KYuH4FPWX6r5hjTe/view?usp=sharing
 
-- date: 2026-11-27
+- date: 2026-10-27
   type: lecture
   lecture: 17
   title: Expectation Maximization 2
   quiz:
   work: []
-  # PDF date cell is 11/27, in row order between 10/22 and 10/29.
   # TODO restore slides: https://drive.google.com/file/d/1NLLuDr6Dh0nkVE9QCzH3McwpJj0veAlW/view?usp=sharing
 
 - date: 2026-10-29

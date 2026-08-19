@@ -61,9 +61,9 @@ shift with class discussion.</p>
 </table>
 </div>
 
-<p class="schedule-footnote">Quiz numbers follow the source calendar (there is no Quiz 13).
-HW4 is released on Nov 17; its due date is not listed. Exam week is not listed.
-Dec 7 is a Monday on the source calendar, outside the usual Tuesday/Thursday pattern.</p>
+<p class="schedule-footnote">Quiz numbers follow the source calendar (quizzes 1–12; there is no Quiz 13 or 14).
+HW3 Release is Oct 13; HW3 Due/HW4 Release is Nov 5. HW4 due date is not listed. Exam week is not listed.
+The source sheet lists Expectation Maximization 2 on 11/27, in row order between Oct 22 and Oct 29.</p>
 
 <section class="section" id="coursework">
   <div class="section__head">
@@ -75,17 +75,17 @@ Dec 7 is a Monday on the source calendar, outside the usual Tuesday/Thursday pat
     <li class="info-card">
       <span class="info-card__label">Homeworks</span>
       <span class="info-card__value">Four assignments</span>
-      <span class="info-card__hint">HW1: Sep 1–17. HW2: Sep 22–Oct 8. HW3: Oct 20–Nov 17. HW4 Release Nov 17 (due date not listed).</span>
+      <span class="info-card__hint">HW1: Sep 1–17. HW2: Sep 22–Oct 8. HW3: Oct 13–Nov 5. HW4 Release Nov 5 (due date not listed).</span>
     </li>
     <li class="info-card">
       <span class="info-card__label">Quizzes</span>
       <span class="info-card__value">Weekly (see table)</span>
-      <span class="info-card__hint">Short multiple-choice quizzes on the previous week's material. Numbered 1–12 and 14.</span>
+      <span class="info-card__hint">Short multiple-choice quizzes on the previous week's material. Numbered 1–12 on the source calendar.</span>
     </li>
     <li class="info-card">
       <span class="info-card__label">Group project</span>
       <span class="info-card__value">Document, teams, proposal, checkpoint, report</span>
-      <span class="info-card__hint">Document out Sep 17. Team form Oct 6. Proposal Due Oct 29. Mid-term check point Nov 17. Final report Dec 7. Presentation date TBD.</span>
+      <span class="info-card__hint">Document out Sep 17. Team form Oct 6. Proposal Due Oct 22. Mid-term check point Nov 5. Final report Dec 3. Presentation date TBD.</span>
     </li>
   </ul>
 </section>

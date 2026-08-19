@@ -1,14 +1,8 @@
 # =============================================================================
-# Fall 2026 lecture calendar — source of truth for /schedule/
-#
-# Extracted from "Copy of Logistics - Lecture Schedule 2026".
-# The public table renders only: date, lecture number, lecture name, quiz,
-# and a combined homework/project column. Shadow-TA assignments and internal
-# HW topic notes are intentionally omitted.
-#
-# DO NOT publish slides, lecture files, or homework files on the public site.
-# Matching Fall 2025 Drive links are listed as YAML comments for restore.
-# The schedule template also wraps any materials markup in Liquid comments.
+# Fall 2026 lecture calendar — transcribed from
+# "Copy of Logistics - Lecture Schedule 2026.pdf" (Google Sheets export).
+# Public table: date, lecture number, title, quiz, combined homework/project.
+# Shadow TAs and HW content notes are omitted. No slide/HW file URLs rendered.
 # =============================================================================
 
 - date: 2026-08-25
@@ -129,7 +123,7 @@
     - HW2 Due
   # TODO restore slides: https://drive.google.com/file/d/1oqQbWU_Yioos0XqyvSup9JHcctqTPa5O/view?usp=sharing
 
-- date: 2026-10-20
+- date: 2026-10-13
   type: holiday
   lecture:
   title: No Class - Fall Break
@@ -137,14 +131,14 @@
   work:
     - HW3 Release
 
-- date: 2026-10-22
+- date: 2026-10-15
   type: noclass
   lecture:
   title: No Class
   quiz:
   work: []
 
-- date: 2026-10-27
+- date: 2026-10-20
   type: lecture
   lecture: 15
   title: Canonical Correlation Analysis
@@ -152,7 +146,7 @@
   work: []
   # TODO restore slides: https://drive.google.com/file/d/1jcj_tXHiOG3jS4ovFOn2Bq_-mXS_lY57/view?usp=sharing
 
-- date: 2026-10-29
+- date: 2026-10-22
   type: lecture
   lecture: 16
   title: Expectation Maximization 1
@@ -161,15 +155,16 @@
     - Proposal Due
   # TODO restore slides: https://drive.google.com/file/d/1YaHrGG8PBIOc5cg9KYuH4FPWX6r5hjTe/view?usp=sharing
 
-- date: 2026-11-05
+- date: 2026-11-27
   type: lecture
   lecture: 17
   title: Expectation Maximization 2
   quiz:
   work: []
+  # PDF date cell is 11/27, in row order between 10/22 and 10/29.
   # TODO restore slides: https://drive.google.com/file/d/1NLLuDr6Dh0nkVE9QCzH3McwpJj0veAlW/view?usp=sharing
 
-- date: 2026-11-10
+- date: 2026-10-29
   type: lecture
   lecture: 18
   title: Factor Analysis
@@ -177,14 +172,14 @@
   work: []
   # TODO restore slides: https://drive.google.com/file/d/131gNbF3ZpJdciRT9JAlNw2zDK_pMxUFk/view?usp=sharing
 
-- date: 2026-11-12
+- date: 2026-11-03
   type: holiday
   lecture:
   title: No Class - Democracy Day
   quiz:
   work: []
 
-- date: 2026-11-17
+- date: 2026-11-05
   type: lecture
   lecture: 19
   title: Hidden Markov Models
@@ -194,7 +189,7 @@
     - Mid-term check point
   # TODO restore slides: https://drive.google.com/file/d/10nxS2i447NYu0PhyHaNf-TUwhC2wcilA/view?usp=sharing
 
-- date: 2026-11-19
+- date: 2026-11-10
   type: lecture
   lecture: 20
   title: HMM2
@@ -202,13 +197,36 @@
   work: []
   # TODO restore slides: https://drive.google.com/file/d/141FAYfE42mULyduDUryk87VSFdjSFCSr/view?usp=sharing
 
-- date: 2026-11-24
+- date: 2026-11-12
   type: lecture
   lecture: 21
   title: Kalman Filtering 1
   quiz: 11
   work: []
   # TODO restore slides: https://drive.google.com/file/d/1oR4W7S5q3NtqsGrVU97kEwfdEB7o0KJ6/view?usp=sharing
+
+- date: 2026-11-17
+  type: holiday
+  lecture:
+  title: Thanksgiving break
+  quiz:
+  work: []
+
+- date: 2026-11-19
+  type: lecture
+  lecture: 22
+  title: Kalman Filtering 2
+  quiz:
+  work: []
+  # TODO restore slides: https://drive.google.com/file/d/1qn1XwFmdiCw0r8TYgYVshUp5gRuGC53G/view?usp=sharing
+
+- date: 2026-11-24
+  type: lecture
+  lecture: 23
+  title: Particle Filtering
+  quiz: 12
+  work: []
+  # TODO restore slides: https://drive.google.com/file/d/1E_WBqB5WBJ53vGSjTtjv7nR085RVCe9f/view?usp=sharing
 
 - date: 2026-11-26
   type: holiday
@@ -219,26 +237,17 @@
 
 - date: 2026-12-01
   type: lecture
-  lecture: 22
-  title: Kalman Filtering 2 + Particle Filtering
-  quiz:
-  work: []
-  # TODO restore slides: https://drive.google.com/file/d/1qn1XwFmdiCw0r8TYgYVshUp5gRuGC53G/view?usp=sharing
-
-- date: 2026-12-03
-  type: lecture
-  lecture: 23
+  lecture: 24
   title: Maxent models and Survival Analysis
-  quiz: 12
+  quiz:
   work: []
   # TODO restore slides: https://drive.google.com/file/d/1s9mCsOASQZjYLiJ4gwgprqgIHoPTnDiZ/view?usp=sharing
   # TODO restore survival slides: https://drive.google.com/file/d/1bR8p1idojcJALMz2Cu6puAiXsxVriRIG/view?usp=sharing
 
-- date: 2026-12-07
+- date: 2026-12-03
   type: lecture
-  lecture: 24
+  lecture: 25
   title: Time to Predict Very Rare Events
-  quiz: 14
+  quiz:
   work:
     - Final report
-  # Exam week is not listed on the source calendar. HW 4 due date is not listed.

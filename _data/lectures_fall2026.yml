@@ -149,26 +149,27 @@
 - date: 2026-10-22
   type: lecture
   lecture: 16
-  title: ARMA
-  quiz:
-  work: []
-
-- date: 2026-10-27
-  type: lecture
-  lecture: 17
   title: Expectation Maximization 1
   quiz: 8
   work:
     - Proposal Due
   # TODO restore slides: https://drive.google.com/file/d/1YaHrGG8PBIOc5cg9KYuH4FPWX6r5hjTe/view?usp=sharing
 
-- date: 2026-10-29
+- date: 2026-10-27
   type: lecture
-  lecture: 18
+  lecture: 17
   title: Expectation Maximization 2
   quiz:
   work: []
   # TODO restore slides: https://drive.google.com/file/d/1NLLuDr6Dh0nkVE9QCzH3McwpJj0veAlW/view?usp=sharing
+
+- date: 2026-10-29
+  type: lecture
+  lecture: 18
+  title: Factor Analysis
+  quiz: 9
+  work: []
+  # TODO restore slides: https://drive.google.com/file/d/131gNbF3ZpJdciRT9JAlNw2zDK_pMxUFk/view?usp=sharing
 
 - date: 2026-11-03
   type: holiday
@@ -180,14 +181,6 @@
 - date: 2026-11-05
   type: lecture
   lecture: 19
-  title: Factor Analysis
-  quiz: 9
-  work: []
-  # TODO restore slides: https://drive.google.com/file/d/131gNbF3ZpJdciRT9JAlNw2zDK_pMxUFk/view?usp=sharing
-
-- date: 2026-11-10
-  type: lecture
-  lecture: 20
   title: Hidden Markov Models
   quiz: 10
   work:
@@ -195,37 +188,46 @@
     - Mid-term check point
   # TODO restore slides: https://drive.google.com/file/d/10nxS2i447NYu0PhyHaNf-TUwhC2wcilA/view?usp=sharing
 
-- date: 2026-11-12
+- date: 2026-11-10
   type: lecture
-  lecture: 21
+  lecture: 20
   title: HMM2
   quiz:
   work: []
   # TODO restore slides: https://drive.google.com/file/d/141FAYfE42mULyduDUryk87VSFdjSFCSr/view?usp=sharing
 
-- date: 2026-11-17
+- date: 2026-11-12
   type: lecture
-  lecture: 22
+  lecture: 21
   title: Kalman Filtering 1
   quiz: 11
   work: []
   # TODO restore slides: https://drive.google.com/file/d/1oR4W7S5q3NtqsGrVU97kEwfdEB7o0KJ6/view?usp=sharing
 
-- date: 2026-11-19
+- date: 2026-11-17
   type: lecture
-  lecture: 23
+  lecture: 22
   title: Kalman Filtering 2
   quiz:
   work: []
   # TODO restore slides: https://drive.google.com/file/d/1qn1XwFmdiCw0r8TYgYVshUp5gRuGC53G/view?usp=sharing
 
-- date: 2026-11-24
+- date: 2026-11-19
   type: lecture
-  lecture: 24
+  lecture: 23
   title: Particle Filtering
   quiz:
   work: []
   # TODO restore slides: https://drive.google.com/file/d/1E_WBqB5WBJ53vGSjTtjv7nR085RVCe9f/view?usp=sharing
+
+- date: 2026-11-24
+  type: lecture
+  lecture: 24
+  title: Maxent models and Survival Analysis
+  quiz: 12
+  work: []
+  # TODO restore slides: https://drive.google.com/file/d/1s9mCsOASQZjYLiJ4gwgprqgIHoPTnDiZ/view?usp=sharing
+  # TODO restore survival slides: https://drive.google.com/file/d/1bR8p1idojcJALMz2Cu6puAiXsxVriRIG/view?usp=sharing
 
 - date: 2026-11-26
   type: holiday
@@ -237,22 +239,13 @@
 - date: 2026-12-01
   type: lecture
   lecture: 25
-  title: Maxent models and Survival Analysis
-  quiz: 12
-  work: []
-  # TODO restore slides: https://drive.google.com/file/d/1s9mCsOASQZjYLiJ4gwgprqgIHoPTnDiZ/view?usp=sharing
-  # TODO restore survival slides: https://drive.google.com/file/d/1bR8p1idojcJALMz2Cu6puAiXsxVriRIG/view?usp=sharing
-
-- date: 2026-12-03
-  type: lecture
-  lecture: 26
   title: Time to Predict Very Rare Events
   quiz:
   work: []
 
-- date: 2026-12-08
+- date: 2026-12-03
   type: lecture
-  lecture: 27
+  lecture: 26
   title: TBD
   quiz:
   work:

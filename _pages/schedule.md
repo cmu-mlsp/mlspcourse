@@ -62,7 +62,7 @@ shift with class discussion.</p>
 </div>
 
 <p class="schedule-footnote">Quiz numbers follow the source calendar (quizzes 1–12; there is no Quiz 13 or 14).
-HW3 Release is Oct 13; HW3 Due/HW4 Release is Nov 10. HW4 due date is not listed. Exam week is not listed.</p>
+HW3 Release is Oct 13; HW3 Due/HW4 Release is Nov 5. HW4 due date is not listed. Exam week is not listed.</p>
 
 <section class="section" id="coursework">
   <div class="section__head">
@@ -74,7 +74,7 @@ HW3 Release is Oct 13; HW3 Due/HW4 Release is Nov 10. HW4 due date is not listed
     <li class="info-card">
       <span class="info-card__label">Homeworks</span>
       <span class="info-card__value">Four assignments</span>
-      <span class="info-card__hint">HW1: Sep 1–17. HW2: Sep 22–Oct 8. HW3: Oct 13–Nov 10. HW4 Release Nov 10 (due date not listed).</span>
+      <span class="info-card__hint">HW1: Sep 1–17. HW2: Sep 22–Oct 8. HW3: Oct 13–Nov 5. HW4 Release Nov 5 (due date not listed).</span>
     </li>
     <li class="info-card">
       <span class="info-card__label">Quizzes</span>
@@ -84,7 +84,7 @@ HW3 Release is Oct 13; HW3 Due/HW4 Release is Nov 10. HW4 due date is not listed
     <li class="info-card">
       <span class="info-card__label">Group project</span>
       <span class="info-card__value">Document, teams, proposal, checkpoint, report</span>
-      <span class="info-card__hint">Document out Sep 17. Team form Oct 6. Proposal Due Oct 27. Mid-term check point Nov 10. Final report Dec 8. Presentation date TBD.</span>
+      <span class="info-card__hint">Document out Sep 17. Team form Oct 6. Proposal Due Oct 22. Mid-term check point Nov 5. Final report Dec 3. Presentation date TBD.</span>
     </li>
   </ul>
 </section>

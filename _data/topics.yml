@@ -31,7 +31,6 @@
     - Clustering
     - Regression and prediction
     - Linear classifiers
-    - ARMA models
 
 - module: Latent variable models
   topics:

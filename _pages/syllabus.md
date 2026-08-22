@@ -9,7 +9,7 @@ nav: true
 <div class="notice notice--tbd">
   <span class="notice__bar" aria-hidden="true"></span>
   <span class="chip chip--tbd">TBD</span>
-  <h3>Piazza, Canvas and office hours are still being finalized</h3>
+  <h3>Piazza and Canvas are still being finalized</h3>
   <p>Course policies below carry over from previous editions of 11-755. We meet
     {{ site.meeting_days }}, {{ site.meeting_time }}, in {{ site.meeting_room }}.
     The lecture calendar is on the <a href="{{ site.baseurl }}/schedule/">schedule</a>

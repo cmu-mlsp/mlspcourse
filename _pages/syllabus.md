@@ -6,16 +6,6 @@ description: Fall 2026 &middot; subject to change
 nav: true
 ---
 
-<div class="notice notice--tbd">
-  <span class="notice__bar" aria-hidden="true"></span>
-  <span class="chip chip--tbd">TBD</span>
-  <h3>Piazza and Canvas are still being finalized</h3>
-  <p>Course policies below carry over from previous editions of 11-755. We meet
-    {{ site.meeting_days }}, {{ site.meeting_time }}, in {{ site.meeting_room }}.
-    The lecture calendar is on the <a href="{{ site.baseurl }}/schedule/">schedule</a>
-    page. Remote attendance uses the Zoom link below.</p>
-</div>
-
 * (The list will be replaced with the table of contents.)
 {:toc}
 
@@ -39,17 +29,11 @@ This course will be taught in person in {{ site.meeting_room }} ({{ site.meeting
 
 [https://cmu-mlsp.github.io/mlspcourse/](https://cmu-mlsp.github.io/mlspcourse/)
 
-**Piazza:** We will be using Piazza for class communication and announcements. The system is highly catered to getting you help fast and efficiently from classmates and instructors. Rather than emailing questions to the teaching staff, you are encouraged to post your questions on Piazza. You can post privately to the instructor and TAs through the Piazza website. The {{ site.course_term }} Piazza space is **TBD** and will be linked from the [home page]({{ site.baseurl }}/) once it is open.
+**Piazza:** We will be using Piazza for class communication and announcements. The system is highly catered to getting you help fast and efficiently from classmates and instructors. Rather than emailing questions to the teaching staff, you are encouraged to post your questions on Piazza. You can post privately to the instructor and TAs through the Piazza website. The {{ site.course_term }} Piazza space is at [https://piazza.com/class/msgc599wzzw1ph](https://piazza.com/class/msgc599wzzw1ph).
 
-{% comment %} TODO: restore with the Fall 2026 Piazza space.
-[https://piazza.com/class/lvmxcb90l234iq/](https://piazza.com/class/lvmxcb90l234iq/)
-{% endcomment %}
+**Canvas:** Canvas hosts course handouts and grades, and is used for any request for re-grading. The {{ site.course_term }} Canvas course is at [https://canvas.cmu.edu/courses/53620](https://canvas.cmu.edu/courses/53620) (for registered students).
 
-**Canvas:** Students submit assignments through Canvas, which is also used for grading and for any request for re-grading. The {{ site.course_term }} Canvas course is **TBD** and will be available to registered students.
-
-{% comment %} TODO: restore with the Fall 2026 Canvas course.
-[https://canvas.cmu.edu/courses/40522](https://canvas.cmu.edu/courses/40522)
-{% endcomment %}
+**Gradescope:** Assignment and quiz submissions are handled through Gradescope at [https://www.gradescope.com/courses/1345228](https://www.gradescope.com/courses/1345228).
 
 ### Grades
 

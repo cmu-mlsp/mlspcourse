@@ -2,7 +2,8 @@
 # Fall 2026 lecture calendar — transcribed from
 # "Copy of Logistics - Lecture Schedule 2026.pdf" (Google Sheets export).
 # Public table: date, lecture number, title, quiz, combined homework/project.
-# Shadow TAs and HW content notes are omitted. No slide/HW file URLs rendered.
+# Shadow TAs and HW content notes are omitted. Slide URLs stay commented until
+# released; only rows with an active `slides:` field render a Slides link.
 # =============================================================================
 
 - date: 2026-08-25
@@ -11,7 +12,7 @@
   title: Introduction
   quiz:
   work: []
-  # TODO restore slides: https://drive.google.com/file/d/1FFRCRFE1oV4twMgke9kN_tbTrhqErZNC/view?usp=drive_link
+  slides: https://drive.google.com/file/d/1hhUtwv63Fp_t3MSncCWwDFb81KsqtFz3/view?usp=sharing
 
 - date: 2026-08-27
   type: lecture

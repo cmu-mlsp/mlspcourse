@@ -17,9 +17,9 @@ light and dark themes) are all in `_sass/_tokens.scss`.
 ## Schedule and staff
 
 The public `/schedule/` page is driven by `_data/lectures_fall2026.yml` and
-shows only dates, lecture numbers, titles, quizzes, and combined homework /
-project checkpoints. Slide and homework *file* links stay in YAML comments and
-inside Liquid `{% comment %}` blocks so they never reach the built HTML.
+shows dates, lecture numbers, titles, quizzes, and combined homework /
+project checkpoints. Set an optional `slides:` URL on a lecture row to publish
+a Slides chip; other slide and homework *file* links stay as YAML comments.
 
 Search the repository for `TODO: restore` to find disabled blocks (room, Piazza,
 Canvas, office hours, recordings, project nav). Staff for Fall 2026: Bhiksha Raj,

@@ -41,7 +41,10 @@ shift with class discussion.</p>
         {% else %}
           <span class="schedule-event">{{ item.title }}</span>
         {% endif %}
-        {% comment %} TODO: restore slides, lecture files, and homework handouts when they are approved for the public site. Matching Fall 2025 Drive links stay as YAML comments in _data/lectures_fall2026.yml. Do not add those URLs to this table. {% endcomment %}
+        {% if item.slides %}
+          <a class="schedule-slides" href="{{ item.slides }}" target="_blank" rel="noopener">Slides</a>
+        {% endif %}
+        {% comment %} Other lecture slides and homework handouts stay as YAML comments in _data/lectures_fall2026.yml until released. {% endcomment %}
       </td>
       <td data-label="Quiz">{% if item.quiz %}Quiz {{ item.quiz }}{% else %}&mdash;{% endif %}</td>
       <td data-label="Homework &amp; project">

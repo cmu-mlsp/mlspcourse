@@ -41,10 +41,17 @@ shift with class discussion.</p>
         {% else %}
           <span class="schedule-event">{{ item.title }}</span>
         {% endif %}
-        {% if item.slides %}
-          <a class="schedule-slides" href="{{ item.slides }}" target="_blank" rel="noopener">Slides</a>
+        {% if item.slides or item.recording %}
+          <div class="schedule-materials">
+            {% if item.slides %}
+              <a class="schedule-chip schedule-chip--slides" href="{{ item.slides }}" target="_blank" rel="noopener">Slides</a>
+            {% endif %}
+            {% if item.recording %}
+              <a class="schedule-chip schedule-chip--recording" href="{{ item.recording }}" target="_blank" rel="noopener">Recording</a>
+            {% endif %}
+          </div>
         {% endif %}
-        {% comment %} Other lecture slides and homework handouts stay as YAML comments in _data/lectures_fall2026.yml until released. {% endcomment %}
+        {% comment %} Other lecture slides, recordings, and homework handouts stay as YAML comments in _data/lectures_fall2026.yml until released. {% endcomment %}
       </td>
       <td data-label="Quiz">{% if item.quiz %}Quiz {{ item.quiz }}{% else %}&mdash;{% endif %}</td>
       <td data-label="Homework &amp; project">

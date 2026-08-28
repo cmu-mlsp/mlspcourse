@@ -174,13 +174,19 @@
   color: var(--ink);
 }
 
-// Compact materials chip under the topic title (Drive, etc.).
-.schedule-slides {
+// Compact material chips under the topic title (slides, recordings, etc.).
+.schedule-materials {
   display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.5rem 0 0;
+}
+
+.schedule-chip {
+  display: inline-flex;
   width: max-content;
   align-items: center;
   gap: 0.4em;
-  margin: 0.5rem 0 0;
   padding: 0.28em 0.72em 0.28em 0.55em;
   font-family: var(--font-mono);
   font-size: 0.66rem;
@@ -198,17 +204,6 @@
     border-color 0.2s var(--ease),
     box-shadow 0.2s var(--ease);
 
-  // Tiny document glyph so the control reads as materials, not body copy.
-  &::before {
-    content: "";
-    width: 0.55em;
-    height: 0.72em;
-    border: 1.5px solid currentColor;
-    border-radius: 1.5px;
-    opacity: 0.85;
-    box-shadow: inset 0 -0.22em 0 -0.08em currentColor;
-  }
-
   &:hover,
   &:focus-visible {
     color: var(--surface);
@@ -219,7 +214,30 @@
   }
 }
 
-body.dark-mode .schedule-slides {
+// Tiny document glyph so the control reads as slides, not body copy.
+.schedule-chip--slides::before {
+  content: "";
+  width: 0.55em;
+  height: 0.72em;
+  border: 1.5px solid currentColor;
+  border-radius: 1.5px;
+  opacity: 0.85;
+  box-shadow: inset 0 -0.22em 0 -0.08em currentColor;
+}
+
+// Play triangle — same footprint as the slides glyph.
+.schedule-chip--recording::before {
+  content: "";
+  width: 0;
+  height: 0;
+  margin-left: 0.08em;
+  border-style: solid;
+  border-width: 0.34em 0 0.34em 0.52em;
+  border-color: transparent transparent transparent currentColor;
+  opacity: 0.9;
+}
+
+body.dark-mode .schedule-chip {
   color: var(--accent-deep);
 
   &:hover,

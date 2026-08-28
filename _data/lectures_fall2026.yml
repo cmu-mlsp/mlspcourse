@@ -2,8 +2,9 @@
 # Fall 2026 lecture calendar — transcribed from
 # "Copy of Logistics - Lecture Schedule 2026.pdf" (Google Sheets export).
 # Public table: date, lecture number, title, quiz, combined homework/project.
-# Shadow TAs and HW content notes are omitted. Slide URLs stay commented until
-# released; only rows with an active `slides:` field render a Slides link.
+# Shadow TAs and HW content notes are omitted. Slide and recording URLs stay
+# commented until released; only rows with active `slides:` / `recording:` fields
+# render material chips on the schedule.
 # =============================================================================
 
 - date: 2026-08-25
@@ -13,6 +14,7 @@
   quiz:
   work: []
   slides: https://drive.google.com/file/d/1hhUtwv63Fp_t3MSncCWwDFb81KsqtFz3/view?usp=sharing
+  recording: https://mediaservices.cmu.edu/channel/11-755+-+Machine+Learning+Signal+Processing+-+Fall+2026/416651852
 
 - date: 2026-08-27
   type: lecture

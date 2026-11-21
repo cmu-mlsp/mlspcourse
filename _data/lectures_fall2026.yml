@@ -204,6 +204,7 @@
   work:
     - HW3 Due/HW4 Release
     - Mid-term check point
+  slides: https://drive.google.com/file/d/1eU05ztWl2BDNhC1hC2oIXvCfjhNmwjvw/view?usp=sharing
   # TODO restore slides: https://drive.google.com/file/d/10nxS2i447NYu0PhyHaNf-TUwhC2wcilA/view?usp=sharing
 
 - date: 2026-11-12
@@ -220,6 +221,7 @@
   title: Kalman Filtering 1
   quiz: 11
   work: []
+  slides: https://drive.google.com/file/d/1RrxXlRDJT5tgHc6lrrrfdmEbPHjbekmF/view?usp=sharing
   # TODO restore slides: https://drive.google.com/file/d/1oR4W7S5q3NtqsGrVU97kEwfdEB7o0KJ6/view?usp=sharing
 
 - date: 2026-11-19
